@@ -34,3 +34,14 @@ Connect neopixes with STM32F411CCU6
 
   
 
+## 10/26/2025 9 PM - Finalilize the Keybord Shematic  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTc5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--0640ca1344326eceb00a9669ffc15db0a965336a/image.png)
+Connect STM to Power
+Make the STM useabel (Rest Button, Boot Button. Add C to VCAP1)
+62 Neopix - USB.2.0 Device max 6.40 mA per NeoPix ~ 10% Brightness
+Connect the SW Matrix to the STM
+Add a row to the Matrix for the ESC and F's
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTc5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e7313b9fe36334ab39feb832d6620eea345ce6c/image.png)
+  
+
