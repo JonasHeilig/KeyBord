@@ -967,6 +967,12 @@
 		(uuid "cf4c77c2-4c34-44e6-82aa-9b47bb935af8")
 	)
 	(junction
+		(at 218.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d05acdd4-688e-4121-acf2-f6c7459d9ece")
+	)
+	(junction
 		(at 114.3 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2542,6 +2548,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 71.12) (xy 218.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a5ca4-0ffb-402c-8534-f3e1e6b9d03c")
+	)
+	(wire
+		(pts
 			(xy 193.04 45.72) (xy 193.04 71.12)
 		)
 		(stroke
@@ -3210,7 +3226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00936d9b-820f-4f77-b639-54485115e872")
-		(property "Reference" "SW?"
+		(property "Reference" "SW13"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -3262,7 +3278,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -3278,7 +3294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0164e9c9-2133-4a41-9e6c-2d398627099a")
-		(property "Reference" "D?"
+		(property "Reference" "D41"
 			(at 142.24 148.5899 90)
 			(effects
 				(font
@@ -3350,7 +3366,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025acacb-08d2-4a3d-8874-9d382f683844")
-		(property "Reference" "D?"
+		(property "Reference" "D38"
 			(at 142.24 73.6599 90)
 			(effects
 				(font
@@ -3438,7 +3454,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "045dbe93-cc74-4f49-a543-78e07b2214fb")
-		(property "Reference" "SW?"
+		(property "Reference" "SW66"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -3574,7 +3590,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04983064-4294-40bf-87fd-0c27fe21d086")
-		(property "Reference" "SW?"
+		(property "Reference" "SW52"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -3642,7 +3658,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -3658,7 +3674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04fcb181-c615-482a-bc0d-b2b67ac3b88f")
-		(property "Reference" "D?"
+		(property "Reference" "D33"
 			(at 129.54 97.7899 90)
 			(effects
 				(font
@@ -3730,7 +3746,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0724c9c8-30d2-438a-86f0-5893d3306cb8")
-		(property "Reference" "SW?"
+		(property "Reference" "SW6"
 			(at 58.42 113.03 0)
 			(effects
 				(font
@@ -3798,7 +3814,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "079f3468-36ed-40d4-8304-0fc48edb47da")
-		(property "Reference" "SW?"
+		(property "Reference" "SW10"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -3866,7 +3882,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3882,7 +3898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6bb5a1-b348-43ae-9a44-9c965bc628f6")
-		(property "Reference" "SW?"
+		(property "Reference" "SW8"
 			(at 58.42 163.83 0)
 			(effects
 				(font
@@ -3934,7 +3950,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3950,7 +3966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba11f7e-fa9c-4e64-8383-924363a3d009")
-		(property "Reference" "SW?"
+		(property "Reference" "SW20"
 			(at 83.82 163.83 0)
 			(effects
 				(font
@@ -4002,7 +4018,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -4018,7 +4034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be1c6e1-5ea3-49be-852b-be3fbf4e2c1b")
-		(property "Reference" "SW?"
+		(property "Reference" "SW57"
 			(at 172.72 38.1 0)
 			(effects
 				(font
@@ -4070,7 +4086,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8ff0a8-7f6f-468a-8738-3ff5164e5987")
-		(property "Reference" "SW?"
+		(property "Reference" "SW59"
 			(at 172.72 87.63 0)
 			(effects
 				(font
@@ -4138,7 +4154,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -4154,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e93b51a-d8cb-4bbd-ad68-06f855a4fe0a")
-		(property "Reference" "D?"
+		(property "Reference" "D56"
 			(at 180.34 73.6599 90)
 			(effects
 				(font
@@ -4226,7 +4242,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f454454-4654-4856-be55-b5c2b5c84416")
-		(property "Reference" "D?"
+		(property "Reference" "D26"
 			(at 116.84 73.6599 90)
 			(effects
 				(font
@@ -4314,7 +4330,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fbaf921-bae5-487d-a324-c88ea4c7457e")
-		(property "Reference" "D?"
+		(property "Reference" "D44"
 			(at 154.94 73.6599 90)
 			(effects
 				(font
@@ -4402,7 +4418,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -4418,7 +4434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10022b38-2908-44c7-8e9a-4ce7d601e50a")
-		(property "Reference" "D?"
+		(property "Reference" "D29"
 			(at 116.84 148.5899 90)
 			(effects
 				(font
@@ -4490,7 +4506,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "149d23d5-2d3e-4ddb-9d43-eff9268122e0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW69"
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -4558,7 +4574,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d82495-80ff-41ac-8cd6-2e0605f1f815")
-		(property "Reference" "SW?"
+		(property "Reference" "SW53"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -4626,7 +4642,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -4642,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b6cf3c-85b8-448f-8a7b-ba22d818b2c0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW76"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -4694,7 +4710,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -4710,7 +4726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae25c49-4bbd-47fc-a77b-39738dd17cd7")
-		(property "Reference" "D?"
+		(property "Reference" "D69"
 			(at 205.74 148.5899 90)
 			(effects
 				(font
@@ -4782,7 +4798,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -4798,7 +4814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b71f6c9-2f5c-431a-afcd-52dff81da327")
-		(property "Reference" "D?"
+		(property "Reference" "D16"
 			(at 91.44 123.1899 90)
 			(effects
 				(font
@@ -4870,7 +4886,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdaa370-4466-4f84-90b7-99818d938773")
-		(property "Reference" "SW?"
+		(property "Reference" "SW78"
 			(at 223.52 87.63 0)
 			(effects
 				(font
@@ -4938,7 +4954,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -4954,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218eedc3-9302-4c92-a62f-b84ce7277d7e")
-		(property "Reference" "SW?"
+		(property "Reference" "SW22"
 			(at 96.52 63.5 0)
 			(effects
 				(font
@@ -5006,7 +5022,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -5022,7 +5038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22edc93f-978f-49b9-8459-27328520512e")
-		(property "Reference" "D?"
+		(property "Reference" "D45"
 			(at 154.94 97.7899 90)
 			(effects
 				(font
@@ -5094,7 +5110,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "245044b2-b33b-4e27-abae-48ecf8477368")
-		(property "Reference" "SW?"
+		(property "Reference" "SW4"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -5162,7 +5178,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26220b88-0754-4e49-82ec-a8231ad1de26")
-		(property "Reference" "SW?"
+		(property "Reference" "SW27"
 			(at 109.22 38.1 0)
 			(effects
 				(font
@@ -5230,7 +5246,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2826c68e-7124-4f55-b8ee-36aa7009a4c0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW30"
 			(at 109.22 113.03 0)
 			(effects
 				(font
@@ -5298,7 +5314,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -5314,7 +5330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28369d45-6025-4fdd-8f2a-c6df1a5df1a7")
-		(property "Reference" "D?"
+		(property "Reference" "D27"
 			(at 116.84 97.7899 90)
 			(effects
 				(font
@@ -5386,7 +5402,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "296efa9f-a738-4569-add0-2edeaa765aab")
-		(property "Reference" "SW?"
+		(property "Reference" "SW21"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5454,7 +5470,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c0de8e7-0ed7-4550-8137-f6cda8e94401")
-		(property "Reference" "D?"
+		(property "Reference" "D58"
 			(at 180.34 123.1899 90)
 			(effects
 				(font
@@ -5542,7 +5558,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -5558,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf1de17-6536-4387-bfc7-a6e29cd28768")
-		(property "Reference" "SW?"
+		(property "Reference" "SW25"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -5610,7 +5626,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f09026d-544e-47ad-9697-717d6b34d51a")
-		(property "Reference" "D?"
+		(property "Reference" "D36"
 			(at 129.54 173.9899 90)
 			(effects
 				(font
@@ -5698,7 +5714,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f40ac0a-2c9d-48ab-8839-647d00cdd591")
-		(property "Reference" "SW?"
+		(property "Reference" "SW50"
 			(at 147.32 163.83 0)
 			(effects
 				(font
@@ -5766,7 +5782,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -5782,7 +5798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f657e9e-9e1a-41e3-a5d7-78bf59e75595")
-		(property "Reference" "SW?"
+		(property "Reference" "SW62"
 			(at 185.42 38.1 0)
 			(effects
 				(font
@@ -5834,7 +5850,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -5850,7 +5866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fab3e5a-2065-4a7c-9435-1975c3f24edc")
-		(property "Reference" "SW?"
+		(property "Reference" "SW24"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -5902,7 +5918,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fca612e-c202-4dbb-8449-5cd8fb3b3a53")
-		(property "Reference" "SW?"
+		(property "Reference" "SW38"
 			(at 121.92 163.83 0)
 			(effects
 				(font
@@ -5970,7 +5986,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -5986,7 +6002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "317ceda0-e78e-4aec-9ded-2e178c232780")
-		(property "Reference" "D?"
+		(property "Reference" "D67"
 			(at 205.74 97.7899 90)
 			(effects
 				(font
@@ -6058,7 +6074,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -6074,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "347cb72c-516f-431d-8b6e-feda11c9e7eb")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 66.04 48.2599 90)
 			(effects
 				(font
@@ -6146,7 +6162,7 @@
 		(instances
 			(project ""
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c7cbb2-8b7d-4330-8ce4-f2b9ad8a3634")
-		(property "Reference" "SW?"
+		(property "Reference" "SW47"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -6214,7 +6230,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37db0111-9233-47aa-8442-c7ed65e6dde9")
-		(property "Reference" "SW?"
+		(property "Reference" "SW23"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -6282,7 +6298,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38719b78-33d3-4544-b599-ef91f7882c50")
-		(property "Reference" "SW?"
+		(property "Reference" "SW51"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -6350,7 +6366,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -6366,7 +6382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bfb92d-1a2f-47c5-b8ee-7ba358c897e1")
-		(property "Reference" "SW?"
+		(property "Reference" "SW14"
 			(at 71.12 163.83 0)
 			(effects
 				(font
@@ -6418,7 +6434,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39523a11-0c44-4e5f-9213-7fde9c878232")
-		(property "Reference" "SW?"
+		(property "Reference" "SW70"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -6486,7 +6502,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a53408f-ef73-4f5e-b4b1-8a9638690e8a")
-		(property "Reference" "D?"
+		(property "Reference" "D40"
 			(at 142.24 123.1899 90)
 			(effects
 				(font
@@ -6574,7 +6590,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa60cdd-d233-4348-aa67-c3a885990e50")
-		(property "Reference" "SW?"
+		(property "Reference" "SW63"
 			(at 185.42 63.5 0)
 			(effects
 				(font
@@ -6642,7 +6658,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9e1403-8318-44b6-9414-92411ebcaa4f")
-		(property "Reference" "D?"
+		(property "Reference" "D12"
 			(at 78.74 173.9899 90)
 			(effects
 				(font
@@ -6730,7 +6746,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef04d26-ad6f-4414-a977-6b0e035df7b8")
-		(property "Reference" "SW?"
+		(property "Reference" "SW67"
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -6798,7 +6814,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "417d57d8-4b81-4f10-b3de-ef7b1f7ccd96")
-		(property "Reference" "SW?"
+		(property "Reference" "SW16"
 			(at 83.82 63.5 0)
 			(effects
 				(font
@@ -6866,7 +6882,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4432cb23-62bb-4ef4-9d5f-ac57d9513f4a")
-		(property "Reference" "D?"
+		(property "Reference" "D63"
 			(at 193.04 123.1899 90)
 			(effects
 				(font
@@ -6954,7 +6970,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -6970,7 +6986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45408e72-11a5-4186-a688-5ac23807e446")
-		(property "Reference" "SW?"
+		(property "Reference" "SW40"
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -7022,7 +7038,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47173d38-59e5-4f63-9185-fa47a7325a03")
-		(property "Reference" "D?"
+		(property "Reference" "D10"
 			(at 78.74 123.1899 90)
 			(effects
 				(font
@@ -7110,7 +7126,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7126,7 +7142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47dbd4d3-3728-460f-8a7f-d4d4c9620039")
-		(property "Reference" "D?"
+		(property "Reference" "D42"
 			(at 142.24 173.9899 90)
 			(effects
 				(font
@@ -7198,7 +7214,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -7214,7 +7230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e140be7-797b-46ae-b695-9ef3cf521ee0")
-		(property "Reference" "D?"
+		(property "Reference" "D57"
 			(at 180.34 97.7899 90)
 			(effects
 				(font
@@ -7286,7 +7302,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -7302,7 +7318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509a862d-9a23-493a-aaf3-2d8aedf7f612")
-		(property "Reference" "D?"
+		(property "Reference" "D51"
 			(at 167.64 97.7899 90)
 			(effects
 				(font
@@ -7374,7 +7390,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a1bacb-25bd-440e-bab6-0f68302fd6d3")
-		(property "Reference" "D?"
+		(property "Reference" "D11"
 			(at 78.74 148.5899 90)
 			(effects
 				(font
@@ -7462,7 +7478,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7478,7 +7494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a51d1f-d4f1-4ca2-ba91-829ae1651a8f")
-		(property "Reference" "SW?"
+		(property "Reference" "SW11"
 			(at 71.12 87.63 0)
 			(effects
 				(font
@@ -7530,7 +7546,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d48cb4-52a1-4515-b99e-2912a258c36d")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 66.04 123.1899 90)
 			(effects
 				(font
@@ -7618,7 +7634,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a94714c-49a7-4f7a-8741-a3543e76daca")
-		(property "Reference" "D?"
+		(property "Reference" "D76"
 			(at 231.14 97.7899 90)
 			(effects
 				(font
@@ -7706,7 +7722,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b7971c7-efb8-4513-b15f-8c439e9342d6")
-		(property "Reference" "D?"
+		(property "Reference" "D64"
 			(at 193.04 148.5899 90)
 			(effects
 				(font
@@ -7794,7 +7810,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -7810,7 +7826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60cebdc5-2427-463e-a693-91b3d38c94ac")
-		(property "Reference" "D?"
+		(property "Reference" "D75"
 			(at 231.14 73.6599 90)
 			(effects
 				(font
@@ -7882,7 +7898,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -7898,7 +7914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63adb7eb-9e1e-42a7-9097-95143009add2")
-		(property "Reference" "D?"
+		(property "Reference" "D15"
 			(at 91.44 97.7899 90)
 			(effects
 				(font
@@ -7970,7 +7986,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -7986,7 +8002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64118c9c-8c64-459e-a3d1-5002c7e571ef")
-		(property "Reference" "D?"
+		(property "Reference" "D43"
 			(at 154.94 48.2599 90)
 			(effects
 				(font
@@ -8058,7 +8074,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "643ee1e6-6e4e-49ad-b2d2-5cce2c8f90cc")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 66.04 148.5899 90)
 			(effects
 				(font
@@ -8146,7 +8162,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8162,7 +8178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69b100bd-c1d7-4df0-ba5f-7b95691ff9ff")
-		(property "Reference" "SW?"
+		(property "Reference" "SW49"
 			(at 147.32 138.43 0)
 			(effects
 				(font
@@ -8214,7 +8230,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -8230,7 +8246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db0f0e3-cd89-4982-ba54-733573ee3a87")
-		(property "Reference" "SW?"
+		(property "Reference" "SW5"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -8282,7 +8298,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3bbc9d-fab0-47a0-9cb9-e641ec020c72")
-		(property "Reference" "SW?"
+		(property "Reference" "SW28"
 			(at 109.22 63.5 0)
 			(effects
 				(font
@@ -8350,7 +8366,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -8366,7 +8382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eac2825-e064-4b95-9aa8-d9a24ce1239e")
-		(property "Reference" "SW?"
+		(property "Reference" "SW33"
 			(at 121.92 38.1 0)
 			(effects
 				(font
@@ -8418,7 +8434,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728163f1-e40c-4a96-a4a6-4abd7572ab2a")
-		(property "Reference" "SW?"
+		(property "Reference" "SW54"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -8486,7 +8502,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73c18827-c245-48c8-8ed6-63c65b8a89a8")
-		(property "Reference" "D?"
+		(property "Reference" "D48"
 			(at 154.94 173.9899 90)
 			(effects
 				(font
@@ -8574,7 +8590,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745b0e9f-91d3-4ec5-9e56-9fe4e2fd0b87")
-		(property "Reference" "D?"
+		(property "Reference" "D46"
 			(at 154.94 123.1899 90)
 			(effects
 				(font
@@ -8662,7 +8678,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -8678,7 +8694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7625e224-e5d7-4e7a-b5a5-5cb37ede5436")
-		(property "Reference" "SW?"
+		(property "Reference" "SW77"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -8730,7 +8746,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -8746,7 +8762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e2bb3a-909a-4d62-a12b-66c2195e8abd")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 78.74 48.2599 90)
 			(effects
 				(font
@@ -8818,7 +8834,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8834,7 +8850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79633a6c-3abb-4497-8e8f-a753af23a952")
-		(property "Reference" "SW?"
+		(property "Reference" "SW68"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -8886,7 +8902,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aba3298-53bc-4b1d-832d-de11642b1976")
-		(property "Reference" "SW?"
+		(property "Reference" "SW60"
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -8954,7 +8970,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2182b5-17ea-4875-abc1-8f9b4fa3b0b5")
-		(property "Reference" "SW?"
+		(property "Reference" "SW75"
 			(at 210.82 113.03 0)
 			(effects
 				(font
@@ -9022,7 +9038,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -9038,7 +9054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bcefcdf-0e36-45e9-8552-ab36ede99ba7")
-		(property "Reference" "D?"
+		(property "Reference" "D73"
 			(at 218.44 123.1899 90)
 			(effects
 				(font
@@ -9110,7 +9126,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e291fd2-cfce-4dd1-8d12-0e8e806d2fad")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 66.04 97.7899 90)
 			(effects
 				(font
@@ -9198,7 +9214,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9214,7 +9230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe3b6dc-7601-477c-a6a0-76b679647de3")
-		(property "Reference" "SW?"
+		(property "Reference" "SW35"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -9266,7 +9282,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -9282,7 +9298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8100579f-b016-41d6-88d8-9417f3fbd7fa")
-		(property "Reference" "D?"
+		(property "Reference" "D53"
 			(at 167.64 148.5899 90)
 			(effects
 				(font
@@ -9354,7 +9370,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -9370,7 +9386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8130b911-ef9a-4d0b-88f5-cb2cf6044f69")
-		(property "Reference" "D?"
+		(property "Reference" "D9"
 			(at 78.74 97.7899 90)
 			(effects
 				(font
@@ -9442,7 +9458,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8332d68b-5c2d-46ba-8e7c-68a66b713e3c")
-		(property "Reference" "SW?"
+		(property "Reference" "SW71"
 			(at 198.12 138.43 0)
 			(effects
 				(font
@@ -9510,7 +9526,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f4aa26-643a-4236-9dd3-db8f07e5a5f8")
-		(property "Reference" "SW?"
+		(property "Reference" "SW7"
 			(at 58.42 138.43 0)
 			(effects
 				(font
@@ -9578,7 +9594,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -9594,7 +9610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b027512-fd68-4de2-8c0d-b08f7c250ca8")
-		(property "Reference" "SW?"
+		(property "Reference" "SW64"
 			(at 185.42 87.63 0)
 			(effects
 				(font
@@ -9646,7 +9662,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -9662,7 +9678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc6fad9-d45c-484e-adcb-8900c0cd476d")
-		(property "Reference" "SW?"
+		(property "Reference" "SW18"
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -9714,7 +9730,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -9730,7 +9746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90508a63-5777-43f1-9d03-9f9b3507256c")
-		(property "Reference" "SW?"
+		(property "Reference" "SW61"
 			(at 172.72 138.43 0)
 			(effects
 				(font
@@ -9782,7 +9798,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -9798,7 +9814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "919826cd-d4ea-4964-a44b-677071220e73")
-		(property "Reference" "D?"
+		(property "Reference" "D50"
 			(at 167.64 73.6599 90)
 			(effects
 				(font
@@ -9870,7 +9886,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -9886,7 +9902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91bf444b-86e6-4238-828a-ac572528c504")
-		(property "Reference" "D?"
+		(property "Reference" "D14"
 			(at 91.44 73.6599 90)
 			(effects
 				(font
@@ -9958,7 +9974,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -9974,7 +9990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a4cdf5-d2eb-45da-8048-4c2b79ed87a6")
-		(property "Reference" "SW?"
+		(property "Reference" "SW45"
 			(at 147.32 38.1 0)
 			(effects
 				(font
@@ -10026,7 +10042,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -10042,7 +10058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b4d78f-ce04-4d1b-8212-fda2a0d70797")
-		(property "Reference" "SW?"
+		(property "Reference" "SW44"
 			(at 134.62 163.83 0)
 			(effects
 				(font
@@ -10094,7 +10110,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -10110,7 +10126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab4175d-2288-45cb-ac06-1691bbcb9fdb")
-		(property "Reference" "D?"
+		(property "Reference" "D35"
 			(at 129.54 148.5899 90)
 			(effects
 				(font
@@ -10182,7 +10198,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10198,7 +10214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ae9360c-e6d3-4471-9eb6-73ecc1095dc6")
-		(property "Reference" "SW?"
+		(property "Reference" "SW29"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -10250,7 +10266,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -10266,7 +10282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b36bb3e-a28a-41d0-84fa-708a33630e1f")
-		(property "Reference" "D?"
+		(property "Reference" "D54"
 			(at 167.64 173.9899 90)
 			(effects
 				(font
@@ -10338,7 +10354,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -10354,7 +10370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed5c666-d669-475e-b4bb-13572e16a7d0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW9"
 			(at 71.12 38.1 0)
 			(effects
 				(font
@@ -10406,7 +10422,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -10422,7 +10438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9efe83b8-4167-4f0c-8d2d-268077906822")
-		(property "Reference" "SW?"
+		(property "Reference" "SW19"
 			(at 83.82 138.43 0)
 			(effects
 				(font
@@ -10474,7 +10490,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -10490,7 +10506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f26d941-1390-4b10-a8ec-485eeca2f811")
-		(property "Reference" "SW?"
+		(property "Reference" "SW46"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -10542,7 +10558,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -10558,7 +10574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a509b37c-101b-4bde-8fa3-956d524950a9")
-		(property "Reference" "D?"
+		(property "Reference" "D20"
 			(at 104.14 73.6599 90)
 			(effects
 				(font
@@ -10630,7 +10646,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -10646,7 +10662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a512d2d0-b983-446d-ab19-fedc535736ae")
-		(property "Reference" "D?"
+		(property "Reference" "D61"
 			(at 193.04 73.6599 90)
 			(effects
 				(font
@@ -10718,7 +10734,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c4cbbd-b183-43af-9eb8-a211ad163bfe")
-		(property "Reference" "SW?"
+		(property "Reference" "SW34"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -10786,7 +10802,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -10802,7 +10818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f879d5-b615-40a8-90cf-8f5afd375502")
-		(property "Reference" "SW?"
+		(property "Reference" "SW72"
 			(at 210.82 38.1 0)
 			(effects
 				(font
@@ -10854,7 +10870,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -10870,7 +10886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a903719b-4c6a-4ded-9f9c-e5fa3a4744c6")
-		(property "Reference" "SW?"
+		(property "Reference" "SW31"
 			(at 109.22 138.43 0)
 			(effects
 				(font
@@ -10922,7 +10938,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -10938,7 +10954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4436f4-d66b-45f8-97b1-4903faa83707")
-		(property "Reference" "D?"
+		(property "Reference" "D68"
 			(at 205.74 123.1899 90)
 			(effects
 				(font
@@ -11010,7 +11026,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -11026,7 +11042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab9c258b-b249-4730-9239-792d524d3a96")
-		(property "Reference" "SW?"
+		(property "Reference" "SW37"
 			(at 121.92 138.43 0)
 			(effects
 				(font
@@ -11078,7 +11094,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -11094,7 +11110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe8dce1-4498-4bf7-82d7-79b61e3ec1a1")
-		(property "Reference" "D?"
+		(property "Reference" "D23"
 			(at 104.14 148.5899 90)
 			(effects
 				(font
@@ -11166,7 +11182,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -11182,7 +11198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac94d6cc-b94f-4cc3-8cb0-54e52bf06ee4")
-		(property "Reference" "D?"
+		(property "Reference" "D13"
 			(at 91.44 48.2599 90)
 			(effects
 				(font
@@ -11254,7 +11270,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -11270,7 +11286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad90152f-d124-41ab-8ef3-85b57465bb04")
-		(property "Reference" "D?"
+		(property "Reference" "D32"
 			(at 129.54 73.6599 90)
 			(effects
 				(font
@@ -11342,7 +11358,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -11358,7 +11374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3409b74-6c65-46d0-ac10-1d4b3ce6ed6c")
-		(property "Reference" "D?"
+		(property "Reference" "D17"
 			(at 91.44 148.5899 90)
 			(effects
 				(font
@@ -11430,7 +11446,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -11446,7 +11462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5086aae-4380-401b-aab9-fa60c7050815")
-		(property "Reference" "D?"
+		(property "Reference" "D34"
 			(at 129.54 123.1899 90)
 			(effects
 				(font
@@ -11518,7 +11534,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -11534,7 +11550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b638078f-b2d7-4a3e-b7f4-9822dc4e424e")
-		(property "Reference" "D?"
+		(property "Reference" "D31"
 			(at 129.54 48.2599 90)
 			(effects
 				(font
@@ -11606,7 +11622,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -11622,7 +11638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d28f09-255b-4210-83d7-ac1ac724d781")
-		(property "Reference" "D?"
+		(property "Reference" "D8"
 			(at 78.74 73.6599 90)
 			(effects
 				(font
@@ -11694,7 +11710,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7548c00-241f-44cb-8553-7688f41c95dc")
-		(property "Reference" "D?"
+		(property "Reference" "D28"
 			(at 116.84 123.1899 90)
 			(effects
 				(font
@@ -11782,7 +11798,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -11798,7 +11814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8efc945-de0b-4dd3-96d5-6c54370e4b96")
-		(property "Reference" "D?"
+		(property "Reference" "D66"
 			(at 205.74 73.6599 90)
 			(effects
 				(font
@@ -11870,7 +11886,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -11886,7 +11902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc62da0c-be8a-4347-8e70-0b344fb1d5bc")
-		(property "Reference" "D?"
+		(property "Reference" "D37"
 			(at 142.24 48.2599 90)
 			(effects
 				(font
@@ -11958,7 +11974,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -11974,7 +11990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9f0d31-c9f5-468a-85f7-f841798a6898")
-		(property "Reference" "D?"
+		(property "Reference" "D60"
 			(at 193.04 48.2599 90)
 			(effects
 				(font
@@ -12046,7 +12062,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -12062,7 +12078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda0b01a-7bd2-4084-a854-2778d28180a3")
-		(property "Reference" "D?"
+		(property "Reference" "D49"
 			(at 167.64 48.2599 90)
 			(effects
 				(font
@@ -12134,7 +12150,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -12150,7 +12166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1945aa5-2e6f-4bdd-9eaa-41131c9a1a48")
-		(property "Reference" "SW?"
+		(property "Reference" "SW26"
 			(at 96.52 163.83 0)
 			(effects
 				(font
@@ -12202,7 +12218,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -12218,7 +12234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ea4a04-8dc1-487d-a614-f889662d5915")
-		(property "Reference" "SW?"
+		(property "Reference" "SW48"
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -12270,7 +12286,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f6616b-b69b-46ca-8790-5469627fdfea")
-		(property "Reference" "SW?"
+		(property "Reference" "SW12"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -12338,7 +12354,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -12354,7 +12370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3768188-a7a2-4d87-b082-1e6feb4ffd84")
-		(property "Reference" "D?"
+		(property "Reference" "D39"
 			(at 142.24 97.7899 90)
 			(effects
 				(font
@@ -12426,7 +12442,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b72386-54f5-4443-a312-2c77e3828694")
-		(property "Reference" "SW?"
+		(property "Reference" "SW39"
 			(at 134.62 38.1 0)
 			(effects
 				(font
@@ -12494,7 +12510,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -12510,7 +12526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c996c832-cf0c-4f0a-b28b-89cb886d452a")
-		(property "Reference" "SW?"
+		(property "Reference" "SW36"
 			(at 121.92 113.03 0)
 			(effects
 				(font
@@ -12562,7 +12578,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -12578,7 +12594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca4f7841-7c9c-4ebe-92c7-ab2bf5a10e45")
-		(property "Reference" "D?"
+		(property "Reference" "D19"
 			(at 104.14 48.2599 90)
 			(effects
 				(font
@@ -12650,7 +12666,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12666,7 +12682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc663e23-6e25-4e7d-8b49-59e82f7ec779")
-		(property "Reference" "D?"
+		(property "Reference" "D18"
 			(at 91.44 173.9899 90)
 			(effects
 				(font
@@ -12738,7 +12754,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -12754,7 +12770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9be0fa-36bb-4d85-be13-aa359a853779")
-		(property "Reference" "SW?"
+		(property "Reference" "SW65"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -12806,7 +12822,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -12822,7 +12838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccc78986-ca54-4edf-bd38-7bc9d364be05")
-		(property "Reference" "D?"
+		(property "Reference" "D21"
 			(at 104.14 97.7899 90)
 			(effects
 				(font
@@ -12894,7 +12910,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -12910,7 +12926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4a64ef-510a-4e5d-976b-28ba9f616a6a")
-		(property "Reference" "SW?"
+		(property "Reference" "SW17"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -12962,7 +12978,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -12978,7 +12994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf805325-5103-4107-bd23-03cd87a272b9")
-		(property "Reference" "SW?"
+		(property "Reference" "SW32"
 			(at 109.22 163.83 0)
 			(effects
 				(font
@@ -13030,7 +13046,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -13046,7 +13062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d097477a-c4d9-4e22-9baf-2158b5a85d12")
-		(property "Reference" "D?"
+		(property "Reference" "D72"
 			(at 218.44 97.7899 90)
 			(effects
 				(font
@@ -13118,7 +13134,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -13134,7 +13150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4358efa-24c7-4ea4-9071-b001be5986bf")
-		(property "Reference" "D?"
+		(property "Reference" "D30"
 			(at 116.84 173.9899 90)
 			(effects
 				(font
@@ -13206,7 +13222,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -13222,7 +13238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d853be54-f9c9-4d4b-95be-8362083e049f")
-		(property "Reference" "SW?"
+		(property "Reference" "SW42"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -13274,7 +13290,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dda706bc-281f-4955-8f8c-0f539b8a391e")
-		(property "Reference" "D?"
+		(property "Reference" "D22"
 			(at 104.14 123.1899 90)
 			(effects
 				(font
@@ -13362,7 +13378,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -13378,7 +13394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e014956a-1206-49eb-9a7f-fcf939a98f44")
-		(property "Reference" "SW?"
+		(property "Reference" "SW55"
 			(at 160.02 138.43 0)
 			(effects
 				(font
@@ -13430,7 +13446,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -13446,7 +13462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e01d698e-70ad-4018-ad17-966fc1ca1aad")
-		(property "Reference" "D?"
+		(property "Reference" "D25"
 			(at 116.84 48.2599 90)
 			(effects
 				(font
@@ -13518,7 +13534,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -13534,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e030acbf-7fe1-45d7-8f64-b20c76101e6f")
-		(property "Reference" "D?"
+		(property "Reference" "D62"
 			(at 193.04 97.7899 90)
 			(effects
 				(font
@@ -13606,7 +13622,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -13622,7 +13638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17a870d-4cce-4b6a-b250-e5e454813758")
-		(property "Reference" "D?"
+		(property "Reference" "D71"
 			(at 218.44 73.6599 90)
 			(effects
 				(font
@@ -13694,7 +13710,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -13710,7 +13726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e26b93ca-f6d7-4f89-aef7-d6460a7bf01b")
-		(property "Reference" "D?"
+		(property "Reference" "D59"
 			(at 180.34 148.5899 90)
 			(effects
 				(font
@@ -13782,7 +13798,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -13798,7 +13814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30f28dd-ac03-4cac-af1e-3466d988afc7")
-		(property "Reference" "D?"
+		(property "Reference" "D47"
 			(at 154.94 148.5899 90)
 			(effects
 				(font
@@ -13870,7 +13886,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -13886,7 +13902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e464eec4-cb53-4212-bdb7-d6c25f1c98ae")
-		(property "Reference" "SW?"
+		(property "Reference" "SW56"
 			(at 160.02 163.83 0)
 			(effects
 				(font
@@ -13938,7 +13954,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -13954,7 +13970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea23eb87-6788-4a56-9cee-ea55365db37d")
-		(property "Reference" "D?"
+		(property "Reference" "D55"
 			(at 180.34 48.2599 90)
 			(effects
 				(font
@@ -14026,7 +14042,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -14042,7 +14058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebedbfa9-0258-40f4-bd58-9a4a2808a9c9")
-		(property "Reference" "SW?"
+		(property "Reference" "SW58"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -14094,7 +14110,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -14110,7 +14126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee154549-7ef6-4397-9af2-685c94374fd2")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 66.04 73.6599 90)
 			(effects
 				(font
@@ -14182,7 +14198,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14198,7 +14214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ae6ba1-138b-4cb4-aea1-6fa447209a0d")
-		(property "Reference" "D?"
+		(property "Reference" "D24"
 			(at 104.14 173.9899 90)
 			(effects
 				(font
@@ -14270,7 +14286,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -14286,7 +14302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36dc081-05f3-4b3d-8d94-b1510df06042")
-		(property "Reference" "SW?"
+		(property "Reference" "SW43"
 			(at 134.62 138.43 0)
 			(effects
 				(font
@@ -14338,7 +14354,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -14354,7 +14370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4448720-9e0b-4288-b53a-3e480ede92b2")
-		(property "Reference" "D?"
+		(property "Reference" "D65"
 			(at 205.74 48.2599 90)
 			(effects
 				(font
@@ -14426,7 +14442,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -14442,7 +14458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f57765da-041f-44ba-8b9e-bcb65ee557f1")
-		(property "Reference" "D?"
+		(property "Reference" "D52"
 			(at 167.64 123.1899 90)
 			(effects
 				(font
@@ -14514,7 +14530,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -14530,7 +14546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7afddc2-f602-4f31-bb4b-f9b95db66188")
-		(property "Reference" "SW?"
+		(property "Reference" "SW15"
 			(at 83.82 38.1 0)
 			(effects
 				(font
@@ -14582,7 +14598,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -14598,7 +14614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e07e27-ce39-44b5-b66a-6b5d96a1cc5c")
-		(property "Reference" "SW?"
+		(property "Reference" "SW74"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -14650,7 +14666,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -14666,7 +14682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3cbf8d-b980-4ef2-a7b8-3cfeeb161cd3")
-		(property "Reference" "D?"
+		(property "Reference" "D74"
 			(at 231.14 48.2599 90)
 			(effects
 				(font
@@ -14738,7 +14754,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -14754,7 +14770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce92203-809b-4aec-bf50-136b6df1a8c4")
-		(property "Reference" "SW?"
+		(property "Reference" "SW73"
 			(at 210.82 63.5 0)
 			(effects
 				(font
@@ -14806,7 +14822,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -14822,7 +14838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd433a5c-695f-402d-9308-ff1c1858a2c0")
-		(property "Reference" "D?"
+		(property "Reference" "D70"
 			(at 218.44 48.2599 90)
 			(effects
 				(font
@@ -14894,7 +14910,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -14910,7 +14926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff85e06e-1640-4faf-a4d6-4b4654363160")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 66.04 173.9899 90)
 			(effects
 				(font
@@ -14982,7 +14998,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14998,7 +15014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff98e376-d8a8-4df3-90e8-9c2c50497e99")
-		(property "Reference" "SW?"
+		(property "Reference" "SW41"
 			(at 134.62 87.63 0)
 			(effects
 				(font
@@ -15050,7 +15066,7 @@
 		(instances
 			(project "Keybord"
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7/ad0845d9-be65-44ec-942e-df8f751baf56"
-					(reference "SW?")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
