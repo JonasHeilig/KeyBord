@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/26/2025 - Keybord Shematic  
+## 10/26/2025 12 AM - Keybord Shematic  
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTU1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--b494d51792962c1170bfe078649ed283c70b18f2/image.png)
 
@@ -17,4 +17,20 @@ After I chose the Chip I search eater I use fixed switches or I make the switche
 After I decide this things, I research how I make the Switches changeable, and found the MX100H (CPG151101S11)
 
 Then I make the Key-Matrix  
+
+## 10/26/2025 5 PM - Neopix problems  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcyNywicHVyIjoiYmxvYl9pZCJ9fQ==--9bacc1acf2a8f104f4fce81ec577e662fcf08f67/image.png)
+
+I First start experiment with Neopix lights - then I look on the Power and with a 5V USB-C PC cable I dosn`t get enough power when I want to use complite power. Now I am serching for solusions.
+
+My solusion is limit the limit the neopix by software and use SK6812 instead of WS2612B
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTczOCwicHVyIjoiYmxvYl9pZCJ9fQ==--15ca82e81351f8399a6546c03a1b45cc824cdbb9/image.png)
+
+Add a USB-C Port with power changer 5V to 3.3V
+
+Connect neopixes with STM32F411CCU6
+
+  
 
