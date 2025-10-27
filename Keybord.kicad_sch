@@ -4936,7 +4936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5f3e9a-77b6-4358-8098-3986ef1d395b")
-		(property "Reference" "SW3"
+		(property "Reference" "SW79"
 			(at 76.2 40.64 0)
 			(effects
 				(font
@@ -4988,7 +4988,7 @@
 		(instances
 			(project ""
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7"
-					(reference "SW3")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b819205a-dac8-4245-ad99-6fc8dd601ced")
-		(property "Reference" "SW2"
+		(property "Reference" "SW78"
 			(at 53.34 57.15 0)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 		(instances
 			(project ""
 				(path "/e528f1ae-3ae1-474a-b1e2-6cda2df874b7"
-					(reference "SW2")
+					(reference "SW78")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -271,10 +271,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "00531dc1-fff7-4d8c-a361-fd96ed9b5dc9")
-		(at 143.686 24.98)
+		(at 335.17 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D4"
+		(property "Reference" "D43"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "695d30b2-a423-495e-a395-aa72b62c9596")
@@ -285,7 +285,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "30f6c9e1-9c87-44d7-90cb-e67ab6b2cf09")
@@ -559,7 +559,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 18 "Net-(D4-A)")
+			(net 59 "Net-(D43-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ba3582aa-b080-47f8-b950-8abf8a56653c")
@@ -580,10 +580,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "017add56-b0df-4901-b74d-4c92788743ac")
-		(at 166.866 45.08)
+		(at 358.35 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D62"
+		(property "Reference" "D39"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "d66e4233-f1be-4e80-8d86-4e4ec0084add")
@@ -594,7 +594,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "256e5397-db88-4046-a55c-cb9647f06365")
@@ -868,7 +868,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 78 "Net-(D62-A)")
+			(net 55 "Net-(D39-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "eb1f0506-7f7e-4bba-9699-c3b16eb28a1d")
@@ -889,8 +889,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "01b60835-2567-41f0-b63c-3aa5b14e3de6")
-		(at 131.634 80.4725)
-		(property "Reference" "SW73"
+		(at 281.675 51.575)
+		(property "Reference" "SW27"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "62261c4f-a8d5-427c-bdf8-d861e925fb66")
@@ -1248,7 +1248,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 87 "Net-(D71-A)")
+			(net 43 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4f91bb15-ad6f-4f0c-8491-9cadeca3e363")
@@ -1269,10 +1269,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0393455c-a792-4715-87f3-cca681da2c68")
-		(at 143.686 48.43)
+		(at 335.17 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D11"
+		(property "Reference" "D57"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "b437400e-9db7-4ab9-911b-1f958fd470b6")
@@ -1283,7 +1283,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b14af007-b341-409e-b910-ceddacaac82b")
@@ -1557,7 +1557,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 27 "Net-(D11-A)")
+			(net 73 "Net-(D57-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8ec61e60-8569-4556-b705-8b9789e7c566")
@@ -1578,10 +1578,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "06ccdbee-0f12-4b85-8d77-15bcb553521a")
-		(at 172.661 24.98)
+		(at 364.145 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D69"
+		(property "Reference" "D67"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "4f4186b7-12a8-4946-8b27-d7ff8c1e3233")
@@ -1592,7 +1592,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "7507663e-9b43-419f-b8d5-f6fa30cb00f5")
@@ -1866,7 +1866,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 85 "Net-(D69-A)")
+			(net 83 "Net-(D67-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "908634d6-ad83-4e76-ad5a-db448186ade1")
@@ -1887,8 +1887,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "0788d924-104e-4edf-b172-7e3dcc6a545e")
-		(at 131.634 95.386)
-		(property "Reference" "SW74"
+		(at 288.81875 80.15)
+		(property "Reference" "SW41"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "0349e78e-2248-4548-9590-94f281077140")
@@ -2246,7 +2246,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 88 "Net-(D72-A)")
+			(net 57 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4f4174c6-bbad-4025-93c8-e4a8c12360be")
@@ -2267,10 +2267,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0ab785a4-bf8d-49d3-a5b3-a27df7e050eb")
-		(at 172.661 18.28)
+		(at 364.145 137.95)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D67"
+		(property "Reference" "D40"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "281265ac-2b30-4022-b73e-d3bf87f7df4e")
@@ -2281,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "90584d72-c962-4e9e-9c51-eff35e757de9")
@@ -2555,7 +2555,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 83 "Net-(D67-A)")
+			(net 56 "Net-(D40-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "df7142b3-6064-4fbe-b0fc-bd4224394161")
@@ -2576,8 +2576,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "0ae4c19e-9be9-43b6-a048-eabe43a4997b")
-		(at 46.624 169.9535)
-		(property "Reference" "SW24"
+		(at 114.9875 89.675)
+		(property "Reference" "SW46"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "6d63f872-c325-474c-a7e8-baedf2608c3e")
@@ -2935,7 +2935,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 38 "Net-(D22-A)")
+			(net 62 "Net-(D46-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7a18ae39-705f-4dd7-b019-a1420508a48d")
@@ -2956,8 +2956,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "0b3d41db-ab12-403e-b6ce-5b65d56a6ac9")
-		(at 63.626 20.8185)
-		(property "Reference" "SW25"
+		(at 105.4625 108.725)
+		(property "Reference" "SW59"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "3d000b17-be71-4c66-bf16-16fa37c4b2be")
@@ -3315,7 +3315,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 39 "Net-(D23-A)")
+			(net 75 "Net-(D59-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "e49ce07a-bc06-4eb1-afcf-3217e00e879b")
@@ -3336,10 +3336,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0c0bec04-f5e5-479f-a47c-4d6cfb261592")
-		(at 143.686 21.63)
+		(at 335.17 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D3"
+		(property "Reference" "D29"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "76b2f67c-7514-4b4f-bdac-9eef54c2b38d")
@@ -3350,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "2ef2d0c0-d1ef-432b-8500-965e0e04a93f")
@@ -3624,7 +3624,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 16 "Net-(D3-A)")
+			(net 45 "Net-(D29-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "805f051e-a9a4-4aae-b40e-28975417cd5f")
@@ -3645,8 +3645,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "0c265707-0607-4e99-b746-228050b00585")
-		(at 29.622 140.1265)
-		(property "Reference" "SW11"
+		(at 72.125 70.625)
+		(property "Reference" "SW30"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "9aed4325-ddbd-48bb-b362-99cd58a8afab")
@@ -4004,7 +4004,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 25 "Net-(D9-A)")
+			(net 46 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4a3ab349-eda9-4e2c-ae36-98cf2dca2236")
@@ -4025,7 +4025,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "0d56c1cb-0203-4a30-8e6c-e58c5f75236d")
-		(at 186.471 89.695)
+		(at 377.955 209.365)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
@@ -4290,7 +4290,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "0f977055-09ca-40cf-8d2c-9c0f7028d457")
-		(at 181.596 69.525)
+		(at 373.08 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D85"
@@ -4580,7 +4580,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "1153ca92-f7bb-45f1-a0ff-a160a103bc05")
-		(at 214.076 56.285)
+		(at 405.56 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D119"
@@ -4870,8 +4870,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "1255768d-e886-462b-8c57-4840de18ca76")
-		(at 131.634 35.732)
-		(property "Reference" "SW70"
+		(at 267.3875 89.675)
+		(property "Reference" "SW54"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f66f839d-8374-4cd3-9b54-c74401831418")
@@ -5229,7 +5229,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 84 "Net-(D68-A)")
+			(net 70 "Net-(D54-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "512729d8-a4ee-45c9-b15e-d1762ec13efa")
@@ -5250,7 +5250,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "12ca93e9-3b3f-4e49-b0b5-6e9d86fe3f17")
-		(at 197.836 23.185)
+		(at 389.32 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D96"
@@ -5540,7 +5540,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "13b60c02-c9bc-4ab4-b53f-3dc8cd425654")
-		(at 205.956 49.665)
+		(at 397.44 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D109"
@@ -5830,7 +5830,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "13c9227d-1b4b-4a10-9a1b-afa95156af9c")
-		(at 179.541 91.15)
+		(at 371.025 210.82)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -6029,8 +6029,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "14f0d79e-8fbb-4e0c-a91e-6fad92b737cb")
-		(at 97.63 140.1265)
-		(property "Reference" "SW55"
+		(at 200.7125 108.725)
+		(property "Reference" "SW64"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "eb58ef8f-0071-4863-ba03-aca513ac42dc")
@@ -6388,7 +6388,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 69 "Net-(D53-A)")
+			(net 80 "Net-(D64-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "ca02b2ab-5898-41e3-ba9c-e3b58fdec6d8")
@@ -6409,10 +6409,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "16b09fda-500c-4df2-acee-bcb9fa5aef88")
-		(at 172.661 31.68)
+		(at 364.145 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D71"
+		(property "Reference" "D27"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "b916d9ec-b13a-43a8-ac95-3471f9d7e6a8")
@@ -6423,7 +6423,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "c1e70eb7-119b-48c2-ac9c-3b893dc11139")
@@ -6697,7 +6697,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 87 "Net-(D71-A)")
+			(net 43 "Net-(D27-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a0e98723-f745-4422-8630-f985b2ccfea3")
@@ -6718,7 +6718,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "16d9fb34-41c1-47e2-8868-46ecee8e3ba9")
-		(at 179.541 88.64)
+		(at 371.025 208.31)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -6917,8 +6917,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "174dcd16-1da5-4685-852d-97667311ff46")
-		(at 131.634 125.213)
-		(property "Reference" "SW76"
+		(at 24.5 51.575)
+		(property "Reference" "SW14"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "8fadc88c-80a2-4762-a1aa-3961d0fb3a86")
@@ -7276,7 +7276,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 90 "Net-(D74-A)")
+			(net 30 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "88302a7f-ad98-44e2-ab35-df06e28d1709")
@@ -7297,10 +7297,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "1b6a570b-1377-4232-ba4f-bd1bb85b1185")
-		(at 161.071 35.03)
+		(at 352.555 154.7)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D46"
+		(property "Reference" "D50"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ce6ae41b-f23b-4e9e-81e9-0cd24c35ca7c")
@@ -7311,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e58d5c14-c25a-4358-8bbc-81f05593b3ea")
@@ -7585,7 +7585,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 62 "Net-(D46-A)")
+			(net 66 "Net-(D50-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "42341898-98d9-4dfa-b8aa-3d22272f6556")
@@ -7606,8 +7606,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "1c958f51-943a-4e38-8d4d-965fd7059ada")
-		(at 131.634 50.6455)
-		(property "Reference" "SW71"
+		(at 274.53125 108.725)
+		(property "Reference" "SW67"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "8e6a1e35-327c-45cb-be69-25a224252556")
@@ -7965,7 +7965,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 85 "Net-(D69-A)")
+			(net 83 "Net-(D67-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "1e96187c-e93a-4357-9f69-7ffb0c09c625")
@@ -7986,8 +7986,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "1dccdae8-81e3-4401-a8e9-caa987499eb3")
-		(at 114.632 169.9535)
-		(property "Reference" "SW68"
+		(at 253.1 51.575)
+		(property "Reference" "SW26"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "0e272cbb-8457-4617-a168-1d8447b58e1d")
@@ -8345,7 +8345,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 82 "Net-(D66-A)")
+			(net 42 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "9c9dc1f3-7f8d-4daf-9f4b-25504079ead1")
@@ -8366,10 +8366,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "1dd05e92-c42a-47ec-a793-8d5de80d053f")
-		(at 143.686 45.08)
+		(at 335.17 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D10"
+		(property "Reference" "D44"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "e0cfb8de-738b-4c77-a231-518553060389")
@@ -8380,7 +8380,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b9c7b15e-af0c-4f6b-aae8-ff04c21a730f")
@@ -8654,7 +8654,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 26 "Net-(D10-A)")
+			(net 60 "Net-(D44-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "73017fd5-0446-4ac2-8fdb-2541a7ca458b")
@@ -8675,8 +8675,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "2053d878-418f-4233-b50e-372623aa174e")
-		(at 80.628 35.732)
-		(property "Reference" "SW37"
+		(at 143.5625 108.725)
+		(property "Reference" "SW61"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "3499cff4-d361-4166-afbf-970e9f65c3c1")
@@ -9034,7 +9034,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 51 "Net-(D35-A)")
+			(net 77 "Net-(D61-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "5d4742ec-0b60-4336-8f8c-a26e3cc71b1b")
@@ -9055,8 +9055,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "20b598ae-50a5-41f8-b5ab-c38abf500d87")
-		(at 29.622 110.2995)
-		(property "Reference" "SW9"
+		(at 57.08 23)
+		(property "Reference" "SW2"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "08c01e37-c838-4db5-87a5-316ae7449210")
@@ -9414,7 +9414,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 23 "Net-(D7-A)")
+			(net 14 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "900ec22a-b3fc-42b8-bcf0-f4602f69c844")
@@ -9435,7 +9435,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "20cba564-984b-4805-96c9-2a7c567d49f5")
-		(at 197.836 56.285)
+		(at 389.32 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D101"
@@ -9725,7 +9725,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "213620d0-7a99-4dd8-aace-d517d7b2328f")
-		(at 181.596 23.185)
+		(at 373.08 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D78"
@@ -10015,8 +10015,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "21597a4b-9f1c-4b2f-a518-9f3220298608")
-		(at 29.622 35.732)
-		(property "Reference" "SW4"
+		(at 43.55 51.575)
+		(property "Reference" "SW15"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "cacb8615-4618-48c1-af87-8bf60c64028f")
@@ -10374,7 +10374,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 14 "Net-(D2-A)")
+			(net 31 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7f9277c0-8189-43ef-9fc9-5ad0b9a2a65a")
@@ -10395,8 +10395,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "22558a15-b8f8-4c7f-b12f-4f6e2c1cb3b6")
-		(at 46.624 50.6455)
-		(property "Reference" "SW16"
+		(at 81.65 51.575)
+		(property "Reference" "SW17"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f160a3b3-c0b3-4427-b4d5-c1e479ba1188")
@@ -10754,7 +10754,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 30 "Net-(D14-A)")
+			(net 33 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7b7595a2-7932-44fa-9441-4231750a3c19")
@@ -10775,7 +10775,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "22d3ca59-64cd-40c8-8ce8-a1eb3fc92550")
-		(at 189.716 62.905)
+		(at 381.2 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D93"
@@ -11065,10 +11065,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "238c7faf-c1f6-46fa-b09b-4dc6289cd463")
-		(at 155.276 55.13)
+		(at 346.76 174.8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D39"
+		(property "Reference" "D35"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "6d9edb7f-6a08-4166-a908-69ba5e835997")
@@ -11079,7 +11079,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "1d31b875-0013-4283-8717-d6c7199a44ca")
@@ -11353,7 +11353,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 55 "Net-(D39-A)")
+			(net 51 "Net-(D35-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3d0b3d25-9b27-4fa8-95ae-cb881416eee7")
@@ -11374,10 +11374,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "23d48638-b32c-4f0c-9865-320fba5087ac")
-		(at 143.686 31.68)
+		(at 335.17 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D6"
+		(property "Reference" "D68"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "99ef5d1c-8052-40a2-85f2-1e01b90a0116")
@@ -11388,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "2cf0d73f-f119-4899-ac95-019763484cc9")
@@ -11662,7 +11662,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(D6-A)")
+			(net 84 "Net-(D68-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b3a568d2-13b1-4d74-9667-55d8b8bf08c2")
@@ -11683,8 +11683,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "245a284c-efd5-4355-b2e2-7cdc6a376ed1")
-		(at 63.626 95.386)
-		(property "Reference" "SW30"
+		(at 134.0375 89.675)
+		(property "Reference" "SW47"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "d4f4f781-1a00-474e-9660-c3090ff3cd0a")
@@ -12042,7 +12042,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 44 "Net-(D28-A)")
+			(net 63 "Net-(D47-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "45696f07-b221-4bef-ad5d-993f8829727a")
@@ -12063,7 +12063,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "2581eea2-3e08-4411-8530-b365b6e71d0f")
-		(at 181.596 16.565)
+		(at 373.08 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D77"
@@ -12353,7 +12353,7 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "260d78bd-abe1-4901-a1f7-324608bb98f5")
-		(at 114.632 140.1265)
+		(at 238.8125 108.725)
 		(property "Reference" "SW66"
 			(at 9 7 0)
 			(layer "Dwgs.User")
@@ -12712,7 +12712,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 80 "Net-(D64-A)")
+			(net 82 "Net-(D66-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "eb8868db-d4d1-4c70-8a8e-132f13dc88ff")
@@ -12733,10 +12733,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "26cbd32d-9d6e-49f7-903d-f1fbefb582b1")
-		(at 155.276 51.78)
+		(at 346.76 171.45)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D38"
+		(property "Reference" "D21"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "62a1fb6d-6a76-4310-8c8d-dca966ee80ab")
@@ -12747,7 +12747,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "707473cb-4082-485a-b05a-1b013603ad0e")
@@ -13021,7 +13021,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 54 "Net-(D38-A)")
+			(net 37 "Net-(D21-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "93f4b8e9-0bd2-42c6-9bed-8c3e90b38304")
@@ -13042,7 +13042,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "27550da6-4ef7-466d-ae06-1db5c019fd67")
-		(at 189.716 49.665)
+		(at 381.2 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D91"
@@ -13332,8 +13332,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "288046ff-66ce-4f39-81d5-e87a5212427b")
-		(at 46.624 65.559)
-		(property "Reference" "SW17"
+		(at 91.175 70.625)
+		(property "Reference" "SW31"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "74e682af-f414-44d4-a3b6-b078a64f4794")
@@ -13691,7 +13691,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 31 "Net-(D15-A)")
+			(net 47 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "62205e39-60b6-49c8-9ad4-8d6e9cc96214")
@@ -13712,10 +13712,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2b349111-5a7a-4493-9762-6e688f1803d9")
-		(at 155.276 45.08)
+		(at 346.76 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D36"
+		(property "Reference" "D73"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "0c613501-7339-4d1f-8afa-2fefa92c8dc0")
@@ -13726,7 +13726,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "871c9379-c557-4fb6-9ee0-c22cd21e4b0c")
@@ -14000,7 +14000,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 52 "Net-(D36-A)")
+			(net 89 "Net-(D73-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e2936a60-2847-41de-8426-1f2f02ec8d5f")
@@ -14021,7 +14021,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "2c1b9712-0dbd-4b17-94a9-b9c0c7555ab7")
-		(at 181.596 36.425)
+		(at 373.08 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D80"
@@ -14311,10 +14311,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2c3fa34f-a194-4773-b384-9d71ed34eb9b")
-		(at 149.481 41.73)
+		(at 340.965 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D22"
+		(property "Reference" "D46"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "026ae75d-36fb-4f6b-ac5a-b7e0d61d9ab2")
@@ -14325,7 +14325,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "396d1b8b-e780-40da-953e-c6708a01b3d7")
@@ -14599,7 +14599,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(D22-A)")
+			(net 62 "Net-(D46-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3d205fd5-a625-4530-9dda-33ac1f72b0d3")
@@ -14620,10 +14620,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2c50eea2-f033-46e4-845e-075e6954c55b")
-		(at 166.866 38.38)
+		(at 358.35 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D60"
+		(property "Reference" "D11"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "1ebffe90-8325-4cec-b2f4-7eb9e4c44470")
@@ -14634,7 +14634,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "d2f20b62-b6d5-4390-a689-8f27c9d0dad8")
@@ -14908,7 +14908,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 76 "Net-(D60-A)")
+			(net 27 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "89d19eef-a78e-439c-ac6e-a8c7807d3054")
@@ -14929,10 +14929,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2d2f1c8b-9fae-40a6-a82a-fadbbbd14253")
-		(at 149.481 38.38)
+		(at 340.965 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D21"
+		(property "Reference" "D32"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a2dab0c2-9d57-4315-b9ec-8b34ab634dd5")
@@ -14943,7 +14943,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "7df1d5b2-5ef4-4ceb-a023-c687f8926553")
@@ -15217,7 +15217,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 37 "Net-(D21-A)")
+			(net 48 "Net-(D32-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c0d0df9c-7fba-4857-8170-c6c1119885dc")
@@ -15238,8 +15238,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "2d728b69-f4f8-4703-8e43-d8b9ede03e76")
-		(at 97.63 50.6455)
-		(property "Reference" "SW49"
+		(at 181.6625 108.725)
+		(property "Reference" "SW63"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "fea68a74-df4f-485c-9cf4-b5f8a7f60568")
@@ -15597,7 +15597,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 63 "Net-(D47-A)")
+			(net 79 "Net-(D63-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "be916ec8-ea70-465c-8910-8321cda79955")
@@ -15618,7 +15618,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "2dd275ab-5798-4071-aa04-1561763c6478")
-		(at 189.716 43.045)
+		(at 381.2 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D90"
@@ -15908,7 +15908,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "2ec2828b-900c-48e7-8d7b-8ed8a114230f")
-		(at 214.076 49.665)
+		(at 405.56 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D118"
@@ -16198,10 +16198,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2fd3494f-539f-48af-810a-d302f17ca5fd")
-		(at 155.276 18.28)
+		(at 346.76 137.95)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D28"
+		(property "Reference" "D47"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a15bd99b-951e-49d9-b417-16aa039232ca")
@@ -16212,7 +16212,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "c2e764ba-a0dc-44de-9606-cdb2518d104c")
@@ -16486,7 +16486,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 44 "Net-(D28-A)")
+			(net 63 "Net-(D47-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "feaa3811-50e5-459c-a411-1cfd5faaf7e2")
@@ -16507,10 +16507,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3015b1bd-6f39-4805-8794-74e7acbc78a3")
-		(at 155.276 14.93)
+		(at 346.76 134.6)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D27"
+		(property "Reference" "D33"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "2607d542-dffa-4ec7-b670-0725d1d4bdc0")
@@ -16521,7 +16521,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "2ed1de56-0d96-4b51-a7ad-4641f925e319")
@@ -16795,7 +16795,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(D27-A)")
+			(net 49 "Net-(D33-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "92b688b7-96cf-4284-9839-07ddbb49dbc0")
@@ -16816,7 +16816,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "303ba147-8b66-4c66-a503-90f460763257")
-		(at 189.716 29.805)
+		(at 381.2 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D88"
@@ -17106,10 +17106,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "31a81f59-b976-48c9-9e93-ad25fa7107ae")
-		(at 172.661 48.43)
+		(at 364.145 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D76"
+		(property "Reference" "D42"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "34c8c57a-d22e-4820-8b83-2cf29ced21a9")
@@ -17120,7 +17120,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "5e4d1197-0179-49a2-97ae-d89fcfaacea5")
@@ -17394,7 +17394,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 92 "Net-(D76-A)")
+			(net 58 "Net-(D42-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3aec828c-8c49-4424-8a1d-884bfe50ccf8")
@@ -17415,10 +17415,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "31e0f4d1-9d7c-4244-a2a9-5b385145064e")
-		(at 166.866 14.93)
+		(at 358.35 134.6)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D53"
+		(property "Reference" "D64"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "fd87ee7a-b994-4203-acf4-05bada7ac094")
@@ -17429,7 +17429,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "69e84a4a-5f09-4220-9d10-0baaf93c26ab")
@@ -17703,7 +17703,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 69 "Net-(D53-A)")
+			(net 80 "Net-(D64-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b6326788-682f-4875-9295-4aaa5127c1c8")
@@ -17724,7 +17724,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "362568b2-8a2a-4d8e-941d-6f1bf7ea54b5")
-		(at 189.716 69.525)
+		(at 381.2 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D94"
@@ -18014,7 +18014,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "36abf541-9d58-4f6a-8aa0-7ce50470b59c")
-		(at 236.381 25.67)
+		(at 427.865 145.34)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -18213,8 +18213,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "37a61f65-efa3-4f63-8af0-c76ee9233e88")
-		(at 97.63 80.4725)
-		(property "Reference" "SW51"
+		(at 202.14 23.08)
+		(property "Reference" "SW9"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "90c917b6-bbb5-43fa-9512-d0fec7f33e4e")
@@ -18572,7 +18572,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 65 "Net-(D49-A)")
+			(net 25 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "05ba680f-7646-4a94-af95-ee540b5420b2")
@@ -18593,10 +18593,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "37f6247f-1db3-49a2-b3cc-0333977952e2")
-		(at 166.866 41.73)
+		(at 358.35 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D61"
+		(property "Reference" "D25"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "4b060f13-c182-441c-b2b9-e82a1eb1d912")
@@ -18607,7 +18607,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "6c33f5a4-eba8-4dff-8eb8-25095abf0116")
@@ -18881,7 +18881,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 77 "Net-(D61-A)")
+			(net 41 "Net-(D25-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "67c44e5b-aafa-4bbd-9eb2-bbfd2f56d957")
@@ -18902,8 +18902,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "38281d4f-6c9c-4457-a287-82dfef9f3ff3")
-		(at 80.628 155.04)
-		(property "Reference" "SW45"
+		(at 183.09 23.08)
+		(property "Reference" "SW8"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "6bfcbd23-77c7-43a1-8084-dc296c5d3c02")
@@ -19261,7 +19261,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 59 "Net-(D43-A)")
+			(net 24 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "f7c707ac-c080-4c1e-ba23-0117cc92e149")
@@ -19282,7 +19282,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "3848b76b-dfbd-4e10-9169-6063300b306f")
-		(at 205.956 62.905)
+		(at 397.44 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D111"
@@ -19572,10 +19572,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3902a42c-29c2-4b70-888d-53743dfd234b")
-		(at 172.661 35.03)
+		(at 364.145 154.7)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D72"
+		(property "Reference" "D41"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "9b7f4a23-3148-4784-8b93-606028d531fb")
@@ -19586,7 +19586,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "33270bd2-7bcb-42be-9c98-ff18629db2ae")
@@ -19860,7 +19860,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 88 "Net-(D72-A)")
+			(net 57 "Net-(D41-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0770d3f3-4d72-47e6-a7d7-f9816cf48e32")
@@ -19881,8 +19881,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "39771f8c-51bd-4d25-8b66-a02324dd61ff")
-		(at 114.632 35.732)
-		(property "Reference" "SW59"
+		(at 224.525 70.625)
+		(property "Reference" "SW38"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "1778d69e-768c-4435-b90e-2bc72943ae61")
@@ -20240,7 +20240,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 73 "Net-(D57-A)")
+			(net 54 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "6689e109-190e-405f-a9a7-1f65a7daf68b")
@@ -20261,8 +20261,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "399e6547-587f-4420-8d55-5bda4282f788")
-		(at 80.628 110.2995)
-		(property "Reference" "SW42"
+		(at 172.1375 89.675)
+		(property "Reference" "SW49"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "b7190e99-c24b-4272-b5db-c6a1b3743fb5")
@@ -20620,7 +20620,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 56 "Net-(D40-A)")
+			(net 65 "Net-(D49-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "22a3b7d6-70dd-4a97-90ff-44a3cbf9dd89")
@@ -20641,7 +20641,7 @@
 	(footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 		(layer "F.Cu")
 		(uuid "3b0cdee4-3700-4f59-ac22-ca4953da69be")
-		(at 196.051 90.15)
+		(at 387.535 209.82)
 		(descr "QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead ST_UFQFPN48 Analog_CP-48-13 JEDEC_MO-220-WKKD-4")
 		(property "Reference" "U1"
@@ -21629,8 +21629,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "3dee4be5-cfc4-4fce-a9ad-7f3e9395e2cd")
-		(at 97.63 110.2995)
-		(property "Reference" "SW53"
+		(at 205.475 70.625)
+		(property "Reference" "SW37"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "b26475f2-0598-4caa-b824-ecd9f9ce66f3")
@@ -21988,7 +21988,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 67 "Net-(D51-A)")
+			(net 53 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "eed2947b-1c01-4424-b6ac-568917716062")
@@ -22009,8 +22009,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "3ea83bb4-865d-42d0-b536-766b318cdd76")
-		(at 114.632 155.04)
-		(property "Reference" "SW67"
+		(at 272.15 23)
+		(property "Reference" "SW12"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "1ab8bf85-23e7-454c-8677-c643450a635a")
@@ -22368,7 +22368,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 81 "Net-(D65-A)")
+			(net 28 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "ab731e25-8c68-47c6-856a-59f1e46243db")
@@ -22389,7 +22389,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "3f3ccb3c-11dc-4476-99a2-a3df0fc64f3d")
-		(at 181.596 62.905)
+		(at 373.08 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D84"
@@ -22679,10 +22679,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4005f764-7642-4670-8b90-57519301f5e4")
-		(at 161.071 51.78)
+		(at 352.555 171.45)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D51"
+		(property "Reference" "D37"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "349f21ff-30ff-4b9d-9e9b-d613b5e5ca7b")
@@ -22693,7 +22693,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "14f54d33-7eca-466a-92a8-322d6ba7eeda")
@@ -22967,7 +22967,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 67 "Net-(D51-A)")
+			(net 53 "Net-(D37-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "14c924a0-c59d-462d-b77d-070bbe5773cf")
@@ -22988,10 +22988,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4076aa16-9a93-4fa0-a295-002e4f6bd1f3")
-		(at 143.686 51.78)
+		(at 335.17 171.45)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D12"
+		(property "Reference" "D69"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "9837a434-d221-427e-ad6a-d96c7785fc92")
@@ -23002,7 +23002,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "eff2e892-c811-4d7f-ba34-e94f0e81d05b")
@@ -23276,7 +23276,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 28 "Net-(D12-A)")
+			(net 85 "Net-(D69-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0fea2806-f961-4af3-8ca7-09a72c9c18d2")
@@ -23297,7 +23297,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "417cf816-f1d4-4be1-87bb-d5a4ce1512d1")
-		(at 214.076 29.805)
+		(at 405.56 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D115"
@@ -23587,10 +23587,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "417dc950-842d-4a94-909a-1d5ec712edc1")
-		(at 166.866 18.28)
+		(at 358.35 137.95)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D54"
+		(property "Reference" "D76"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "06ad0f81-69ef-4b39-aed0-0bd4b5cf613b")
@@ -23601,7 +23601,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "ee8b204a-9330-4b6e-b92b-c4b80271a3e8")
@@ -23665,7 +23665,6 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/ad0845d9-be65-44ec-942e-df8f751baf56/9b36bb3e-a28a-41d0-84fa-708a33630e1f")
 		(sheetname "/Main/")
 		(sheetfile "main.kicad_sch")
 		(attr smd)
@@ -23875,7 +23874,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 70 "Net-(D54-A)")
+			(net 92 "Net-(D76-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "28c9d760-8dbb-4c85-b1a5-b106400a3487")
@@ -23896,7 +23895,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "41c4698f-1900-49dc-b8b6-a4007e5e13e9")
-		(at 179.541 83.62)
+		(at 371.025 203.29)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -24095,7 +24094,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "4268a00e-080b-4903-864e-ab30e59f8729")
-		(at 222.196 69.525)
+		(at 413.68 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D130"
@@ -24385,7 +24384,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "45a9f8f8-14ac-4ccc-bd55-c7fae2314874")
-		(at 189.716 23.185)
+		(at 381.2 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D87"
@@ -24675,7 +24674,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "45ddc88e-c25d-4ef9-98e3-5cb7b902d22e")
-		(at 181.596 49.665)
+		(at 373.08 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D82"
@@ -24965,8 +24964,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "45e794d0-75c1-4d73-802a-1531b3ef8ba0")
-		(at 131.634 140.1265)
-		(property "Reference" "SW77"
+		(at 29.2625 70.625)
+		(property "Reference" "SW28"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "62742f14-078c-4e86-aaf3-97f1f2e52bc6")
@@ -25324,7 +25323,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 91 "Net-(D75-A)")
+			(net 44 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "c20b8f70-4118-479f-9816-1502f6f59036")
@@ -25345,8 +25344,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "472669b5-f6ff-4366-b1b1-afed45fd9f87")
-		(at 46.624 155.04)
-		(property "Reference" "SW23"
+		(at 110.225 70.625)
+		(property "Reference" "SW32"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "559f35cc-1dbe-49f4-870c-57306b91a0c0")
@@ -25704,7 +25703,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 37 "Net-(D21-A)")
+			(net 48 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "faff3d96-3346-48dc-9168-c2a34e4617ec")
@@ -25725,10 +25724,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4c4276fa-a89e-44d0-8f31-a901f1cd7cfd")
-		(at 149.481 31.68)
+		(at 340.965 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D19"
+		(property "Reference" "D4"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "e1fd1ef9-521a-412f-8a36-5a4e809708d5")
@@ -25739,7 +25738,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e5845116-be3d-4974-ad97-4e7ed7a2b12b")
@@ -26013,7 +26012,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(D19-A)")
+			(net 18 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "82a6f2d5-8e8e-4b61-9865-81d8587cd564")
@@ -26034,8 +26033,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "4c7c20ef-9cc2-4413-bb42-2c9a1c4345ac")
-		(at 97.63 125.213)
-		(property "Reference" "SW54"
+		(at 210.2375 89.675)
+		(property "Reference" "SW51"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "72ff53da-b69f-434c-aec5-7f0c9b97fe27")
@@ -26393,7 +26392,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 68 "Net-(D52-A)")
+			(net 67 "Net-(D51-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4c4b2c92-e9c5-4125-9c79-4386573ffa3d")
@@ -26414,10 +26413,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4d7ce5f3-321e-4f3f-9938-8defb9474ebc")
-		(at 161.071 31.68)
+		(at 352.555 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D45"
+		(property "Reference" "D36"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "70304d2e-ea91-4b19-89bc-64563f297e1c")
@@ -26428,7 +26427,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "bc9c6205-6311-446a-b1a0-e4578d9ba9d3")
@@ -26702,7 +26701,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 61 "Net-(D45-A)")
+			(net 52 "Net-(D36-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "95643e7e-996f-492c-9147-4818cbbddfc5")
@@ -26723,7 +26722,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "4f4a631e-2af2-4123-8d14-f4e5c6c0ed9b")
-		(at 230.316 56.285)
+		(at 421.8 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D137"
@@ -27013,8 +27012,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "50944903-0a34-4844-80c8-6f79c62a72bd")
-		(at 29.622 80.4725)
-		(property "Reference" "SW7"
+		(at 48.3125 108.725)
+		(property "Reference" "SW56"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "6c2b8e02-ff91-4fcd-9c7a-5503d5396684")
@@ -27372,7 +27371,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 20 "Net-(D5-A)")
+			(net 72 "Net-(D56-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "52760fcb-46ee-474c-b194-cd0bcfe82e01")
@@ -27393,7 +27392,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "511eba4a-e981-4816-8bf9-e5fa58d5198c")
-		(at 236.381 23.16)
+		(at 427.865 142.83)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -27592,8 +27591,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "5134b4ff-e534-4c6a-a088-7c8c0f904292")
-		(at 46.624 35.732)
-		(property "Reference" "SW15"
+		(at 76.13 23)
+		(property "Reference" "SW3"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "48d39714-2ef0-4e1b-9733-ecbbfebf16d8")
@@ -27951,7 +27950,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 29 "Net-(D13-A)")
+			(net 16 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "a2374fd4-deb5-4364-984a-de90e2bd5aaf")
@@ -27972,10 +27971,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "51bf50e2-bb90-4fbf-b70b-fee20301f7d0")
-		(at 149.481 51.78)
+		(at 340.965 171.45)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D25"
+		(property "Reference" "D5"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "2e0609d3-d15c-4513-80c2-81b373cbb435")
@@ -27986,7 +27985,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "6a05f2ee-bc8d-4c2f-9dd3-ffa8f698c125")
@@ -28260,7 +28259,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 41 "Net-(D25-A)")
+			(net 20 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e358ebc0-0ae3-40dd-b9ad-9db433f07870")
@@ -28281,8 +28280,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "52200f70-394b-4492-ac5d-4d72e570de9e")
-		(at 97.63 169.9535)
-		(property "Reference" "SW57"
+		(at 234.05 23)
+		(property "Reference" "SW10"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "d5ad2733-ebc4-4182-ae03-5d059684153d")
@@ -28640,7 +28639,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 71 "Net-(D55-A)")
+			(net 26 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "da470943-e2aa-4816-a3f4-c38f3cd4de79")
@@ -28661,7 +28660,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "52b010e9-f529-4cd7-8758-5434b5dc289f")
-		(at 181.596 29.805)
+		(at 373.08 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D79"
@@ -28951,10 +28950,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "54b5b33b-77b3-44bb-a6c3-a6d5bac9e598")
-		(at 172.661 41.73)
+		(at 364.145 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D74"
+		(property "Reference" "D14"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "c6deb1ae-8832-46d8-ae11-3be75de38a31")
@@ -28965,7 +28964,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "5a68a2a4-11f7-4b81-9013-52b4d2a5a2c9")
@@ -29239,7 +29238,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 90 "Net-(D74-A)")
+			(net 30 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "15ac3a27-33f6-4098-8c73-076297df30b8")
@@ -29260,8 +29259,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "54ca6676-3811-4549-a530-80d0b8363828")
-		(at 63.626 50.6455)
-		(property "Reference" "SW27"
+		(at 114.23 23)
+		(property "Reference" "SW5"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "07615d6f-c9b4-4ddf-aab7-52fca050eed6")
@@ -29619,7 +29618,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 41 "Net-(D25-A)")
+			(net 20 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "adfc03e7-7b26-4cd3-9541-8907b1f335a1")
@@ -29640,8 +29639,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "55a03b9d-e8ec-4937-8808-f9ff7867688f")
-		(at 131.634 110.2995)
-		(property "Reference" "SW75"
+		(at 26.88125 108.725)
+		(property "Reference" "SW55"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "a24cf178-6a0e-43d7-bc00-57c9648ce940")
@@ -29999,7 +29998,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 89 "Net-(D73-A)")
+			(net 71 "Net-(D55-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "efedcc27-2b9d-4587-95ce-fb72ff02b36f")
@@ -30020,10 +30019,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "567eb5c2-a26f-42d8-afbb-e5140a7b8df4")
-		(at 172.661 28.33)
+		(at 364.145 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D70"
+		(property "Reference" "D13"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "bfba31a2-6f61-44a6-bfd2-75ef89d3f482")
@@ -30034,7 +30033,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "6e1d216b-ce04-4175-96d6-ad5aff64106a")
@@ -30308,7 +30307,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 86 "Net-(D70-A)")
+			(net 29 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "07f4f8a4-11e1-4280-b93f-3eb011c45635")
@@ -30329,10 +30328,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "58f235d5-af0a-4aa8-aa93-aff09f754929")
-		(at 143.686 41.73)
+		(at 335.17 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D9"
+		(property "Reference" "D30"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "df9b4db8-5bb0-4086-9ee5-57025d3ffd19")
@@ -30343,7 +30342,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b40a4be1-0fdb-4d3c-837c-b21bb85d89d2")
@@ -30617,7 +30616,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 25 "Net-(D9-A)")
+			(net 46 "Net-(D30-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a3a0e0b8-1c93-4320-a2e4-a3830042e18b")
@@ -30638,8 +30637,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "5b215c6c-7b12-437e-97d4-016bb5591803")
-		(at 97.63 20.8185)
-		(property "Reference" "SW47"
+		(at 186.425 70.625)
+		(property "Reference" "SW36"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f07ac5a4-cbeb-41ed-af8c-9ecdca484d68")
@@ -30997,7 +30996,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 61 "Net-(D45-A)")
+			(net 52 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "45f16c0d-707b-44c8-88fe-6f4c1b5b074a")
@@ -31018,7 +31017,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "5ba66894-1959-4143-a58f-4934df2749f5")
-		(at 222.196 43.045)
+		(at 413.68 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D126"
@@ -31308,10 +31307,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "5e156941-b127-486d-8102-da6448a95cf4")
-		(at 166.866 35.03)
+		(at 358.35 154.7)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D59"
+		(property "Reference" "D65"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "5c7cfb14-b6cc-49c9-9934-b4912b91c0b0")
@@ -31322,7 +31321,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "687317df-944f-4b6c-a8a1-3ecbfb077afd")
@@ -31596,7 +31595,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 75 "Net-(D59-A)")
+			(net 81 "Net-(D65-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a410bc16-fd1b-499f-8e49-f490c2429990")
@@ -31617,7 +31616,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "5e1d9930-2c78-4098-8ee7-43d5a874fa55")
-		(at 230.316 43.045)
+		(at 421.8 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D135"
@@ -31907,7 +31906,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "5fd521c5-a39c-4977-b228-5a498636ac98")
-		(at 205.956 29.805)
+		(at 397.44 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D106"
@@ -32197,7 +32196,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "6001338d-1416-4e30-b11b-93feed7c37de")
-		(at 205.956 16.565)
+		(at 397.44 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D104"
@@ -32487,7 +32486,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "645fccf3-bbf5-45bc-aba6-391b6d6c82ee")
-		(at 222.196 56.285)
+		(at 413.68 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D128"
@@ -32777,10 +32776,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "64f9123d-6ac0-4f7f-b711-2d97d39a8443")
-		(at 172.661 38.38)
+		(at 364.145 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D73"
+		(property "Reference" "D55"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "3047ffa9-8e73-4d44-93e4-1d0fb9c7df5d")
@@ -32791,7 +32790,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "29bfa3da-e63b-4ade-918d-0c585c58cdc1")
@@ -33065,7 +33064,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 89 "Net-(D73-A)")
+			(net 71 "Net-(D55-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ad0de6e3-6b01-40a3-b7a3-ca4525d835ac")
@@ -33086,10 +33085,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "65536b22-eae1-47dc-ab66-950ce8d81bf3")
-		(at 161.071 38.38)
+		(at 352.555 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D47"
+		(property "Reference" "D63"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "6d67df51-f979-4c3d-bf67-f8043c38d9f8")
@@ -33100,7 +33099,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e7a34a9b-d3cb-4c5f-91dc-afe0b359effe")
@@ -33374,7 +33373,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 63 "Net-(D47-A)")
+			(net 79 "Net-(D63-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9210a729-9ef8-4190-9802-d8b3c7f07bef")
@@ -33395,8 +33394,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "676bc93e-5d22-481f-bf71-40d86a1283e4")
-		(at 46.624 20.8185)
-		(property "Reference" "SW14"
+		(at 50.69375 127.775)
+		(property "Reference" "SW69"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "dc75f723-57ef-4c9b-8f67-ce3a2dcb850a")
@@ -33754,7 +33753,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 28 "Net-(D12-A)")
+			(net 85 "Net-(D69-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b26719e0-d977-4f23-a88d-3233254d44e0")
@@ -33775,8 +33774,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "67fac360-5f2a-4726-9f7a-73b83758ed35")
-		(at 63.626 80.4725)
-		(property "Reference" "SW29"
+		(at 129.275 70.625)
+		(property "Reference" "SW33"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "b54ac453-1586-4ac3-adf1-268180fd004a")
@@ -34134,7 +34133,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 43 "Net-(D27-A)")
+			(net 49 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "876f3c55-1a3b-4708-a1c5-39b2b5fc25ff")
@@ -34155,10 +34154,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6a0a4baf-1818-442b-b064-bd870a137f85")
-		(at 149.481 18.28)
+		(at 340.965 137.95)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D15"
+		(property "Reference" "D31"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "d2aef296-1fd0-4dd0-9187-9ea6a0b64350")
@@ -34169,7 +34168,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "5da5dbb9-43f9-4458-b4f1-e003a7175089")
@@ -34443,7 +34442,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(D15-A)")
+			(net 47 "Net-(D31-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "196ee6f0-2b84-4299-860f-d2f11c5c9997")
@@ -34464,8 +34463,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "6a212ccc-abdb-4260-8351-3d3e86a70022")
-		(at 29.622 169.9535)
-		(property "Reference" "SW13"
+		(at 67.3625 108.725)
+		(property "Reference" "SW57"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "4cb7c5cd-332a-48d9-bbef-133b42d3aef8")
@@ -34823,7 +34822,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 27 "Net-(D11-A)")
+			(net 73 "Net-(D57-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "8f32dfeb-c9b9-4a41-a29a-611e92165c28")
@@ -34844,10 +34843,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6bc22e0d-6da9-410c-a0a6-8498de190157")
-		(at 161.071 14.93)
+		(at 352.555 134.6)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D40"
+		(property "Reference" "D49"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "f2b62f52-5bd2-42a2-b43d-c9c570e23053")
@@ -34858,7 +34857,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "5215d180-a28b-472a-bbf2-eecb7df36b51")
@@ -35132,7 +35131,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 56 "Net-(D40-A)")
+			(net 65 "Net-(D49-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e24c5b87-771f-4eed-8b22-17dc185114bd")
@@ -35153,8 +35152,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "6c1b875d-9196-4db8-810d-b21ee0701d1f")
-		(at 29.622 95.386)
-		(property "Reference" "SW8"
+		(at 26.88125 127.775)
+		(property "Reference" "SW68"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "45a0a818-2a60-47e2-99d9-78bcf8beb185")
@@ -35512,7 +35511,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 22 "Net-(D6-A)")
+			(net 84 "Net-(D68-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "44b1682c-f3ce-42e9-baec-b7546838f4ec")
@@ -35533,8 +35532,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "6f0f1959-d0b4-43bf-91df-9f25fdf7adf4")
-		(at 114.632 50.6455)
-		(property "Reference" "SW60"
+		(at 229.2875 89.675)
+		(property "Reference" "SW52"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f553669f-a796-4eb1-bdae-2a0b54a2ed68")
@@ -35892,7 +35891,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 74 "Net-(D58-A)")
+			(net 68 "Net-(D52-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "00f20e1d-5c06-4e06-b7a5-999531ede6d5")
@@ -35913,7 +35912,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "6f95cfe5-c09b-410b-bd78-7ab0d5723941")
-		(at 197.836 16.565)
+		(at 389.32 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D95"
@@ -36203,7 +36202,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "6fcbee65-a477-4d3f-845a-ba3fbd0b2764")
-		(at 230.316 23.185)
+		(at 421.8 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D132"
@@ -36493,7 +36492,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "70181ed3-5ce4-4967-a286-ad4e55d32a64")
-		(at 222.196 23.185)
+		(at 413.68 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D123"
@@ -36783,7 +36782,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "719b649b-b1a7-478d-a68f-5cec2209c273")
-		(at 205.956 36.425)
+		(at 397.44 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D107"
@@ -37073,7 +37072,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "7214f610-5933-47fc-8e0f-28c8d6a8eee0")
-		(at 189.716 36.425)
+		(at 381.2 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D89"
@@ -37363,8 +37362,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "72fb3aac-d3b2-468e-adf3-0d3018e577ec")
-		(at 46.624 80.4725)
-		(property "Reference" "SW18"
+		(at 95.9375 89.675)
+		(property "Reference" "SW45"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "004d08ef-841d-4e85-bcc7-4ad22c177bd6")
@@ -37722,7 +37721,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 32 "Net-(D16-A)")
+			(net 61 "Net-(D45-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "9d969e83-1673-4378-9417-73d0de250cab")
@@ -37743,7 +37742,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7673badd-73a6-45b8-b0a1-6e170896bea7")
-		(at 179.541 78.6)
+		(at 371.025 198.27)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -37942,8 +37941,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "778798d6-f52b-438e-9655-c17a380f232a")
-		(at 80.628 140.1265)
-		(property "Reference" "SW44"
+		(at 265.00625 127.775)
+		(property "Reference" "SW74"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "4c75999c-1263-45d3-aa46-c117dce4434a")
@@ -38301,7 +38300,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 58 "Net-(D42-A)")
+			(net 90 "Net-(D74-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "0739740a-4bde-4dc3-9d2c-143c85799af6")
@@ -38322,8 +38321,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "7885a501-e931-46ed-b9a4-045cadf03dee")
-		(at 29.622 50.6455)
-		(property "Reference" "SW5"
+		(at 53.075 70.625)
+		(property "Reference" "SW29"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "9df2f918-5898-4cf9-bcd1-ce985ac7f8b8")
@@ -38681,7 +38680,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 16 "Net-(D3-A)")
+			(net 45 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "09040f36-06ee-44b4-b5ad-2457baf0a16e")
@@ -38702,7 +38701,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7a36651a-0c45-4245-9fd0-d2105101aa0a")
-		(at 179.541 86.13)
+		(at 371.025 205.8)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -38901,7 +38900,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "7c7376c3-dbc0-4f54-99c8-d98da709d987")
-		(at 197.836 43.045)
+		(at 389.32 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D99"
@@ -39191,7 +39190,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "7d176bbf-d1f6-481a-aab0-64f417cc84ee")
-		(at 222.196 36.425)
+		(at 413.68 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D125"
@@ -39481,11 +39480,11 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7fe3fd0b-7bad-4100-b7f1-403b1771dc8c")
-		(at 143.686 35.03)
+		(at 65.5 25 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D7"
-			(at 0 -2 0)
+		(property "Reference" "D2"
+			(at 0 -2 90)
 			(layer "F.SilkS")
 			(uuid "374aba3a-e602-48f5-a2d4-ee60ce378afe")
 			(effects
@@ -39495,8 +39494,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 0 2.1 0)
+		(property "Value" "1N4148"
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "f04b6825-f39e-49f6-b1e2-693c470f39ec")
 			(effects
@@ -39507,7 +39506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39520,7 +39519,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39533,7 +39532,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39546,7 +39545,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39565,16 +39564,6 @@
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
-			(end -2.36 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8194ff31-a4a4-42a1-be44-a5ca23bfcafd")
-		)
-		(fp_line
-			(start -2.36 -1)
 			(end 1.65 -1)
 			(stroke
 				(width 0.12)
@@ -39582,6 +39571,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f09b0777-0760-4c4e-bb1e-311e5c3ded5d")
+		)
+		(fp_line
+			(start -2.36 -1)
+			(end -2.36 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8194ff31-a4a4-42a1-be44-a5ca23bfcafd")
 		)
 		(fp_line
 			(start -2.36 1)
@@ -39594,14 +39593,14 @@
 			(uuid "c1c43a4f-6a9c-470f-946b-766f49728e94")
 		)
 		(fp_line
-			(start -2.35 -1.15)
-			(end -2.35 1.15)
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "569c2737-dcf1-4ca5-89b5-6ce639696c07")
+			(uuid "d890771e-29a9-4990-a2bc-e30fdb9757e1")
 		)
 		(fp_line
 			(start -2.35 -1.15)
@@ -39614,14 +39613,14 @@
 			(uuid "f1026674-2b3c-40bb-9c09-7c4f11ba4467")
 		)
 		(fp_line
-			(start 2.35 -1.15)
-			(end 2.35 1.15)
+			(start -2.35 -1.15)
+			(end -2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d890771e-29a9-4990-a2bc-e30fdb9757e1")
+			(uuid "569c2737-dcf1-4ca5-89b5-6ce639696c07")
 		)
 		(fp_line
 			(start 2.35 1.15)
@@ -39634,6 +39633,16 @@
 			(uuid "5edf896a-6635-42f4-9409-4a0e36f67cf8")
 		)
 		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7fffee4-acb4-4b71-b081-5b971c333052")
+		)
+		(fp_line
 			(start -1.4 -0.9)
 			(end 1.4 -0.9)
 			(stroke
@@ -39642,56 +39651,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "e16ee2af-aa35-4d06-937e-af499a6608a7")
-		)
-		(fp_line
-			(start -1.4 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "703eea9d-9839-46eb-be76-3f0de215c58c")
-		)
-		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d13377cd-0321-4813-afe3-73bbbce8260f")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "78f62cc7-4167-47f9-bcba-1a4f7c288108")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2767a379-b683-4655-8f38-77da1130e6a8")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ba93a016-9937-422e-b2c1-cc8c117ebaf4")
 		)
 		(fp_line
 			(start 0.25 -0.4)
@@ -39714,6 +39673,46 @@
 			(uuid "bddba585-f79a-461f-ae61-ee84b35d4827")
 		)
 		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78f62cc7-4167-47f9-bcba-1a4f7c288108")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba93a016-9937-422e-b2c1-cc8c117ebaf4")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2767a379-b683-4655-8f38-77da1130e6a8")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d13377cd-0321-4813-afe3-73bbbce8260f")
+		)
+		(fp_line
 			(start 0.25 0.4)
 			(end -0.35 0)
 			(stroke
@@ -39722,16 +39721,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "246e3248-5c5b-4b58-9574-fd7a01125fa0")
-		)
-		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f7fffee4-acb4-4b71-b081-5b971c333052")
 		)
 		(fp_line
 			(start 1.4 0.9)
@@ -39743,8 +39732,18 @@
 			(layer "F.Fab")
 			(uuid "26d69852-b9af-491e-94cc-c0adf22143e9")
 		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "703eea9d-9839-46eb-be76-3f0de215c58c")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(layer "F.Fab")
 			(uuid "039160b4-2007-4a3e-bc88-64ed8a775ce2")
 			(effects
@@ -39755,7 +39754,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0)
+			(at -1.65 0 90)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39765,11 +39764,11 @@
 			(uuid "03d6741a-6d3e-4a66-bbc0-8344e4e46479")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0)
+			(at 1.65 0 90)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(D7-A)")
+			(net 14 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c09481ff-6757-416f-8dbc-63b1d5d8dfe1")
@@ -39790,10 +39789,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "80aa5332-9b3b-413b-abff-21c9e94ce776")
-		(at 149.481 48.43)
+		(at 340.965 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D24"
+		(property "Reference" "D71"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "eed513be-0b40-46c8-83c6-7e16272ccc41")
@@ -39804,7 +39803,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "d9ff460f-0d31-4b1b-93fd-ce5b15093276")
@@ -40078,7 +40077,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "Net-(D24-A)")
+			(net 87 "Net-(D71-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "207bd927-ef65-461b-afe3-3a0dab6189d7")
@@ -40099,7 +40098,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "80b38345-52b6-419f-8eb7-e7fcaeff37de")
-		(at 197.836 49.665)
+		(at 389.32 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D100"
@@ -40389,7 +40388,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "8128169f-1d32-4eb8-be9c-320c6bd0d05f")
-		(at 214.076 62.905)
+		(at 405.56 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D120"
@@ -40679,7 +40678,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "81ba5be8-a809-4380-9a37-3e9db64dff0b")
-		(at 214.076 69.525)
+		(at 405.56 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D121"
@@ -40969,10 +40968,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "81efa995-41ef-4c19-8d13-e44b6995e070")
-		(at 143.686 38.38)
+		(at 335.17 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D8"
+		(property "Reference" "D16"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "7cdb3a12-4189-45ef-84c5-e872901fb6d7")
@@ -40983,7 +40982,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "80e2e56d-599f-42ad-bcad-588d7ce1dd6a")
@@ -41257,7 +41256,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 24 "Net-(D8-A)")
+			(net 32 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "98baf8a1-0626-4462-b5cd-f281fe8d9677")
@@ -41278,10 +41277,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "822dbd7a-feb9-4a95-82c5-751c6aa96dd1")
-		(at 155.276 41.73)
+		(at 346.76 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D35"
+		(property "Reference" "D61"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "7d539c13-b7ac-4ea3-b786-59abb8f9f32d")
@@ -41292,7 +41291,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "37a62ca0-1c37-4972-bb68-d0118228e19c")
@@ -41566,7 +41565,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 51 "Net-(D35-A)")
+			(net 77 "Net-(D61-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9405c56e-39de-43b9-85a1-23cb21d42f99")
@@ -41587,10 +41586,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8392ffa9-4b09-4528-8a28-105c53e911bc")
-		(at 149.481 28.33)
+		(at 340.965 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D18"
+		(property "Reference" "D70"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "491da248-6c90-4e34-b22c-4cb14b7dc5c3")
@@ -41601,7 +41600,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "157c95aa-90c3-465d-8bc8-a805c2e22b6b")
@@ -41875,7 +41874,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(D18-A)")
+			(net 86 "Net-(D70-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "64105245-fa21-4ce5-9ff6-9eefc8c23856")
@@ -41896,10 +41895,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "84980082-15eb-463c-a874-cf9f04704ed3")
-		(at 161.071 24.98)
+		(at 352.555 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D43"
+		(property "Reference" "D8"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "3b8f46ce-f639-42fe-8a20-de91dff22762")
@@ -41910,7 +41909,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "42035ca0-a761-4f03-9408-3ef699b90d16")
@@ -42184,7 +42183,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 59 "Net-(D43-A)")
+			(net 24 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4daf6b3d-f7f6-4cea-af3b-e77ec7a9b167")
@@ -42205,8 +42204,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "85194f2f-fbaf-42d2-bf1b-b318e5b99c84")
-		(at 114.632 125.213)
-		(property "Reference" "SW65"
+		(at 248.3375 89.675)
+		(property "Reference" "SW53"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "c4233bb4-ba31-4417-aaac-244f5ca5b1d5")
@@ -42564,7 +42563,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 79 "Net-(D63-A)")
+			(net 69 "Net-(D53-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "3dcf81ad-9669-4e67-bde7-ed30cc3ebd06")
@@ -42585,7 +42584,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "85cb8cae-acdf-4e70-924c-34d69a1e599d")
-		(at 179.541 93.66)
+		(at 371.025 213.33)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -42784,7 +42783,7 @@
 	(footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "85dad31b-fbd2-49c3-af6d-ad1715864b42")
-		(at 235.951 15.28)
+		(at 427.435 134.95)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
@@ -42967,8 +42966,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "8763600b-4c17-4f6a-8251-0a0f0f9e5999")
-		(at 131.634 20.8185)
-		(property "Reference" "SW69"
+		(at 262.625 70.625)
+		(property "Reference" "SW40"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "156188a0-7c97-4a55-9409-537207c6a93a")
@@ -43326,7 +43325,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 83 "Net-(D67-A)")
+			(net 56 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "efbc7111-db88-4cd8-bdeb-106b5c54d585")
@@ -43347,8 +43346,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "87a4cb8b-34df-400c-80fa-55d43771339f")
-		(at 97.63 95.386)
-		(property "Reference" "SW52"
+		(at 195.95 51.575)
+		(property "Reference" "SW23"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "cb7c5796-ae5e-4bbb-8ce0-f8803e8b96cf")
@@ -43706,7 +43705,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 66 "Net-(D50-A)")
+			(net 39 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "12c88286-e115-4463-a5d3-117faf3aaacb")
@@ -43727,10 +43726,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8af41bba-4f8a-4960-bed3-37184b23a694")
-		(at 149.481 55.13)
+		(at 340.965 174.8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D26"
+		(property "Reference" "D19"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "0c4aa502-b29b-412e-b3ec-19f532c2be75")
@@ -43741,7 +43740,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "2a519fc8-f160-4b36-bbed-c99514c29a05")
@@ -44015,7 +44014,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(D26-A)")
+			(net 35 "Net-(D19-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f6dcb2bc-a0ee-4c5b-8b18-9997715f7a99")
@@ -44036,10 +44035,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8bf20d4f-ba24-42b6-b93f-5e06e80036ee")
-		(at 161.071 45.08)
+		(at 352.555 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D49"
+		(property "Reference" "D9"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "955b304a-f35d-49dd-820a-3fe23052a5fb")
@@ -44050,7 +44049,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e3b1d758-a6ba-41bb-a295-036840daa86e")
@@ -44324,7 +44323,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 65 "Net-(D49-A)")
+			(net 25 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0e7e4707-d239-4e7a-a511-9ab642ac13d1")
@@ -44345,10 +44344,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8daac7ea-4acc-4169-9c6b-e00a34e7e362")
-		(at 143.686 28.33)
+		(at 335.17 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D5"
+		(property "Reference" "D56"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "3fc3c0dd-a1d1-42c2-92d3-970b56a33b1a")
@@ -44359,7 +44358,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "37375492-ec2c-434b-8218-c13ca6ab8f86")
@@ -44633,7 +44632,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(D5-A)")
+			(net 72 "Net-(D56-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ae1978cf-f9d8-4e06-8ad4-a5999ac48193")
@@ -44654,8 +44653,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "8e596740-1293-49ac-8268-bcf7c7c5cea5")
-		(at 80.628 80.4725)
-		(property "Reference" "SW40"
+		(at 157.85 51.575)
+		(property "Reference" "SW21"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "b59e8a9c-a106-4d24-93f8-833413e722a8")
@@ -45013,7 +45012,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 54 "Net-(D38-A)")
+			(net 37 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "448d78bc-6518-4bc8-b4bc-ebff4fa8138a")
@@ -45034,7 +45033,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "8f9427f6-a576-461d-ab2a-e80552d165bf")
-		(at 214.076 23.185)
+		(at 405.56 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D114"
@@ -45324,7 +45323,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "902bc8fb-3e5d-4122-acde-04426d209d41")
-		(at 222.196 62.905)
+		(at 413.68 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D129"
@@ -45614,7 +45613,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "93254a06-5a35-45e4-aec5-3f8a13e8b2f2")
-		(at 183.001 94.81)
+		(at 374.485 214.48)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -45813,8 +45812,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "9462a604-00e6-4eb8-8302-cbcd819ea44f")
-		(at 114.632 80.4725)
-		(property "Reference" "SW62"
+		(at 253.1 23)
+		(property "Reference" "SW11"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "30f347dd-6bc6-435e-8e79-c5b24744ace9")
@@ -46172,7 +46171,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 76 "Net-(D60-A)")
+			(net 27 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "ee8b59fd-834e-46fb-b1ec-b4c99eb991a1")
@@ -46193,10 +46192,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "94795cf7-4375-4104-96bd-138c677cfe16")
-		(at 155.276 48.43)
+		(at 346.76 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D37"
+		(property "Reference" "D7"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "56e6819a-5939-4838-804e-bb16513238e6")
@@ -46207,7 +46206,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "ca58f0cc-55ed-4156-8f5f-6b6253d862f6")
@@ -46481,7 +46480,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 53 "Net-(D37-A)")
+			(net 23 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b78eadb9-a960-4572-a3ad-959405ca9ccf")
@@ -46502,10 +46501,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "958c0ab5-80d8-4e2f-9e3d-63fad3257a10")
-		(at 149.481 35.03)
+		(at 340.965 154.7)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D20"
+		(property "Reference" "D18"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "9364a22e-948b-46f6-8737-5d84269f35bd")
@@ -46516,7 +46515,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b69c8b56-ea66-4252-b8ae-1f615d608760")
@@ -46790,7 +46789,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 36 "Net-(D20-A)")
+			(net 34 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "27ee1462-fa54-4095-9832-e254986b82ce")
@@ -46811,7 +46810,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "97071265-4bb4-4359-993a-1bf010baaa01")
-		(at 197.836 36.425)
+		(at 389.32 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D98"
@@ -47101,8 +47100,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "982a643c-85cb-4fe1-9e8b-4f50e421e78f")
-		(at 63.626 65.559)
-		(property "Reference" "SW28"
+		(at 119.75 51.575)
+		(property "Reference" "SW19"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f47c01df-88b1-4e66-968d-f63246099c43")
@@ -47460,7 +47459,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 42 "Net-(D26-A)")
+			(net 35 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "88c2fee7-6657-45d7-93b1-d5cfefcdafcc")
@@ -47481,7 +47480,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "99ca017d-c6e9-42db-9a4f-294d2593a4c7")
-		(at 205.956 69.525)
+		(at 397.44 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D112"
@@ -47771,7 +47770,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "9a108e83-b8fa-446f-b313-688c85896017")
-		(at 230.316 49.665)
+		(at 421.8 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D136"
@@ -48061,8 +48060,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "9a4a3634-4506-40a6-a19a-4b3cacbbef51")
-		(at 46.624 125.213)
-		(property "Reference" "SW21"
+		(at 95.18 23)
+		(property "Reference" "SW4"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "19c0d029-3100-4ba4-a2a4-6d6048c1a79f")
@@ -48420,7 +48419,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 35 "Net-(D19-A)")
+			(net 18 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "1f32dd99-51ca-401c-840f-0880aa0cf528")
@@ -48441,10 +48440,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "9a501771-3374-4526-b1aa-a46821abbd24")
-		(at 155.276 38.38)
+		(at 346.76 158.05)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D34"
+		(property "Reference" "D48"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a79d4e50-4339-40cd-a1d9-5aef9ea34719")
@@ -48455,7 +48454,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "ea181ca1-0522-4897-9226-2529c963a671")
@@ -48729,7 +48728,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 50 "Net-(D34-A)")
+			(net 64 "Net-(D48-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6f698d46-8d9b-49e7-811d-d6653d09f819")
@@ -48750,8 +48749,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "9b3924d7-3bd1-415e-970c-690388529641")
-		(at 80.628 50.6455)
-		(property "Reference" "SW38"
+		(at 241.19375 127.775)
+		(property "Reference" "SW73"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "ce2fdd1f-875f-4fce-8bd0-c611a5213b33")
@@ -49109,7 +49108,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 52 "Net-(D36-A)")
+			(net 89 "Net-(D73-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "2c97ed39-c969-4c37-86f9-acd8790b188f")
@@ -49130,10 +49129,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "9d1e5f2d-c241-48aa-8c79-4be62537f100")
-		(at 149.481 21.63)
+		(at 340.965 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D16"
+		(property "Reference" "D45"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "06807d38-afa2-4da9-9120-73a244600a04")
@@ -49144,7 +49143,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "f8881dec-73e9-4802-bd11-58e050380cb4")
@@ -49418,7 +49417,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(D16-A)")
+			(net 61 "Net-(D45-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c27d42b1-2bbc-4c8f-9af5-fc7fd38c60f5")
@@ -49439,10 +49438,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "9f017869-0c13-4d07-ac19-8427f52f6cdd")
-		(at 155.276 31.68)
+		(at 346.76 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D32"
+		(property "Reference" "D20"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "f15d5985-9b0e-40b4-b836-777be9ac2ea4")
@@ -49453,7 +49452,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b96d0da5-a881-4d87-976d-f8ec4eed95de")
@@ -49727,7 +49726,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 48 "Net-(D32-A)")
+			(net 36 "Net-(D20-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "90beb3ea-65c6-454a-a291-59639be19c2e")
@@ -49748,8 +49747,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "a2bd3d73-9e8a-4250-8599-18aecc84ac6d")
-		(at 63.626 140.1265)
-		(property "Reference" "SW33"
+		(at 144.99 23.08)
+		(property "Reference" "SW6"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "0eb66f43-bbb1-4f23-9514-264c188340f2")
@@ -50107,7 +50106,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 47 "Net-(D31-A)")
+			(net 22 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "c7c25c23-fbf5-40fb-acbd-3a2e144c7417")
@@ -50128,10 +50127,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a3c51a8b-6149-410d-bc51-509869532b2e")
-		(at 149.481 45.08)
+		(at 340.965 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D23"
+		(property "Reference" "D59"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "5b7a004d-3c69-4f92-b18a-df5725e717ed")
@@ -50142,7 +50141,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "480a1bf8-0e5b-41a8-bde1-f7978c223990")
@@ -50416,7 +50415,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 39 "Net-(D23-A)")
+			(net 75 "Net-(D59-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "64ab5eb1-5789-4f43-9b5e-4d7fe4c20116")
@@ -50437,7 +50436,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "a4b97f71-8db7-484c-9c45-09c7c751472f")
-		(at 214.076 16.565)
+		(at 405.56 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D113"
@@ -50727,8 +50726,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "a77e2403-d56b-4488-aca9-e21e5630cd32")
-		(at 80.628 65.559)
-		(property "Reference" "SW39"
+		(at 164.04 23.08)
+		(property "Reference" "SW7"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "e3e395de-6b2d-40f9-8e62-ff70fe7b12ba")
@@ -51086,7 +51085,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 53 "Net-(D37-A)")
+			(net 23 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "1154a021-4c4f-4f39-b0cd-317b867a6134")
@@ -51107,7 +51106,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "abafc45a-8597-4c0b-8e6e-b219b67d789f")
-		(at 197.836 69.525)
+		(at 389.32 189.195)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D103"
@@ -51397,7 +51396,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "ac4ece29-d80f-44ab-8153-220106717f7a")
-		(at 222.196 49.665)
+		(at 413.68 169.335)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D127"
@@ -51687,8 +51686,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "adc961c3-5429-4909-b3f5-543f9587f587")
-		(at 80.628 20.8185)
-		(property "Reference" "SW36"
+		(at 153.0875 89.675)
+		(property "Reference" "SW48"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "be2918c1-63b5-4267-9552-c386d366ef65")
@@ -52046,7 +52045,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 50 "Net-(D34-A)")
+			(net 64 "Net-(D48-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "af93843f-4d75-4192-9691-c96c254c6499")
@@ -52067,8 +52066,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "aee5e7f2-a5bc-4dc0-8fae-9e834cc424e4")
-		(at 80.628 169.9535)
-		(property "Reference" "SW46"
+		(at 176.9 51.575)
+		(property "Reference" "SW22"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f29d7a26-d4f3-4fbb-b17b-56784ad71815")
@@ -52426,7 +52425,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 60 "Net-(D44-A)")
+			(net 38 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "449cab18-f4fb-48b7-8288-0ac3bd9c185c")
@@ -52447,8 +52446,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "b0f6d9b2-381e-4bef-8ef9-7d3b533b0794")
-		(at 114.632 20.8185)
-		(property "Reference" "SW58"
+		(at 215 51.575)
+		(property "Reference" "SW24"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "9a5f60ca-6261-4dd0-a341-c4340a056ed5")
@@ -52806,7 +52805,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 72 "Net-(D56-A)")
+			(net 40 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "001be47a-f382-45ec-bfb3-b7845e034966")
@@ -52827,7 +52826,7 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "b144d4e1-4710-4809-bb56-1fae1df23b3e")
-		(at 29.622 20.8185)
+		(at 24.5 23)
 		(property "Reference" "SW1"
 			(at 9 7 0)
 			(layer "Dwgs.User")
@@ -53207,7 +53206,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b16282fb-c1e3-4681-80f1-1979da1a28be")
-		(at 179.541 76.09)
+		(at 371.025 195.76)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -53406,10 +53405,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "b1af2a2c-69d7-4e72-9347-95c23468dc86")
-		(at 166.866 51.78)
+		(at 358.35 171.45)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D64"
+		(property "Reference" "D66"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "adda3417-0d4f-498f-92fa-5e0164f2f5f9")
@@ -53420,7 +53419,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "ddd855f3-01d8-436b-b7e7-821949bb9456")
@@ -53694,7 +53693,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 80 "Net-(D64-A)")
+			(net 82 "Net-(D66-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "65a7a152-c7c7-4d2a-9aec-25d48097fc98")
@@ -53715,7 +53714,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "b2073a1f-34af-4196-bbb1-558a5d2dad5b")
-		(at 205.956 56.285)
+		(at 397.44 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D110"
@@ -54005,8 +54004,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "b2a23d86-fcf3-455d-b57b-e2e4b8598df1")
-		(at 46.624 110.2995)
-		(property "Reference" "SW20"
+		(at 74.50625 127.775)
+		(property "Reference" "SW70"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "877eca0a-202e-4ce3-a661-13cca1aa9ff6")
@@ -54364,7 +54363,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 34 "Net-(D18-A)")
+			(net 86 "Net-(D70-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "25fa6e7c-7b88-4cd2-a843-5c97fc88775b")
@@ -54385,7 +54384,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "b319846e-8dc4-46ae-a319-cf8eb29bde80")
-		(at 205.956 23.185)
+		(at 397.44 142.855)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D105"
@@ -54675,7 +54674,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "b88443f4-586d-44dd-8165-58cde8ed3ce1")
-		(at 230.316 29.805)
+		(at 421.8 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D133"
@@ -54965,10 +54964,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "baf74e0b-d7fc-4d3c-bbbe-319cf569a6f3")
-		(at 161.071 28.33)
+		(at 352.555 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D44"
+		(property "Reference" "D22"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "561d324a-9f6a-4ab3-a6ef-6d3a39793050")
@@ -54979,7 +54978,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "b765debb-5aaa-4bc5-b12f-8c7005ce235d")
@@ -55253,7 +55252,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 60 "Net-(D44-A)")
+			(net 38 "Net-(D22-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c1a51fef-7e8b-4503-8009-efdb87363fd9")
@@ -55274,8 +55273,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "bb46b810-c060-4499-803f-1b02e8e66923")
-		(at 46.624 140.1265)
-		(property "Reference" "SW22"
+		(at 100.7 51.575)
+		(property "Reference" "SW18"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "612f53b2-bfd0-49bd-af44-9c1ddafd8424")
@@ -55633,7 +55632,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 36 "Net-(D20-A)")
+			(net 34 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "ceee993f-c631-430c-9dd1-b24c372dc801")
@@ -55654,10 +55653,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "bc9bc99e-0463-4e50-a8dd-e2746f58a1a1")
-		(at 161.071 55.13)
+		(at 352.555 174.8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D52"
+		(property "Reference" "D51"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "c6bed565-c865-4e76-80f2-cccc1795cc24")
@@ -55668,7 +55667,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "8e077525-bacf-433a-97cc-e1f017f7ef16")
@@ -55942,7 +55941,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 68 "Net-(D52-A)")
+			(net 67 "Net-(D51-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c49cadb4-8d30-4730-a0a6-3530d0e748e3")
@@ -55963,7 +55962,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "bd796c51-d4b9-4703-bec1-4cf0c44d2e16")
-		(at 230.316 16.565)
+		(at 421.8 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D131"
@@ -56253,7 +56252,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "c056b2c3-d7ee-4593-a9da-43e4a1677a7d")
-		(at 199.221 80.63)
+		(at 390.705 200.3)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
@@ -56666,7 +56665,7 @@
 	(footprint "JonasLib-Git:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "c097ce38-8bb5-4093-965b-e211e845e174")
-		(at 237.001 19.605)
+		(at 428.485 139.275)
 		(descr "DBV0005A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
@@ -56997,10 +56996,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c0e0bba5-08d0-4e57-9968-4dd5f389f5fe")
-		(at 161.071 48.43)
+		(at 352.555 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D50"
+		(property "Reference" "D23"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "cab1a8cf-3bc2-4593-8f60-021519808c93")
@@ -57011,7 +57010,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "7ff40069-f648-4fb4-8856-0ec990441a7b")
@@ -57285,7 +57284,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 66 "Net-(D50-A)")
+			(net 39 "Net-(D23-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9bc97ba5-ad73-41f3-bd24-409cf3d78107")
@@ -57306,7 +57305,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "c11fb4d2-547d-428a-baef-c8386e064127")
-		(at 205.956 43.045)
+		(at 397.44 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D108"
@@ -57596,10 +57595,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c18525ef-3967-47d7-b6e5-5ff938ae4c7e")
-		(at 172.661 21.63)
+		(at 364.145 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D68"
+		(property "Reference" "D54"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "acf28732-369f-47b3-95d2-ba831b0a0cb0")
@@ -57610,7 +57609,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "facba762-db14-4674-82a8-1cc517aa3bfe")
@@ -57884,7 +57883,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 84 "Net-(D68-A)")
+			(net 70 "Net-(D54-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a5db940d-d7c2-4e5e-bc17-83c1352c0b18")
@@ -57905,10 +57904,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c2e756f3-a74b-4ef6-baad-48dfc01c8db6")
-		(at 166.866 55.13)
+		(at 358.35 174.8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D65"
+		(property "Reference" "D12"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "2e33ab2f-8689-4a55-bfbe-a8273ebc457f")
@@ -57919,7 +57918,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "30cf1286-9162-42fa-8212-23bd5c19825c")
@@ -58193,7 +58192,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 81 "Net-(D65-A)")
+			(net 28 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "700ff6dd-b9a1-4383-bb6c-3f3004b40955")
@@ -58214,10 +58213,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c5fc2ed4-4a91-4a93-b790-2e1ad5b5f538")
-		(at 161.071 41.73)
+		(at 352.555 161.4)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D48"
+		(property "Reference" "D75"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "cdf29bf5-0759-4b21-8b6c-440a92c2c4a5")
@@ -58228,7 +58227,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "5b1b0419-a1b4-4c50-b6c3-87bc8982be2d")
@@ -58502,7 +58501,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 64 "Net-(D48-A)")
+			(net 91 "Net-(D75-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "86e9b331-f84f-4dea-8652-a5b940d2edc5")
@@ -58523,8 +58522,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "c61f7683-c14f-4677-a494-96120556aaf4")
-		(at 97.63 35.732)
-		(property "Reference" "SW48"
+		(at 191.1875 89.675)
+		(property "Reference" "SW50"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "d47fffba-af3c-4c01-81d1-8c7c77a5ea4a")
@@ -58882,7 +58881,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 62 "Net-(D46-A)")
+			(net 66 "Net-(D50-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b823d114-e698-4b61-882a-6a38939c4c2a")
@@ -58903,7 +58902,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "c6531aa6-6826-483b-bd1d-3925387c5b1c")
-		(at 214.076 36.425)
+		(at 405.56 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D116"
@@ -59193,10 +59192,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c6633bf4-60bc-4649-822a-397d6bd7a73b")
-		(at 166.866 21.63)
+		(at 358.35 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D55"
+		(property "Reference" "D10"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ee848d4c-2fdd-462b-8772-e17fe3fd27d8")
@@ -59207,7 +59206,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "34a750ac-09bd-4240-8a7e-b18164a72396")
@@ -59481,7 +59480,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 71 "Net-(D55-A)")
+			(net 26 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "16cd6a2a-ebf5-4a20-b456-05de25d00d88")
@@ -59502,8 +59501,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "c70541a0-5093-4060-9a91-794269e69122")
-		(at 29.622 155.04)
-		(property "Reference" "SW12"
+		(at 76.8875 89.675)
+		(property "Reference" "SW44"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "bf840c40-1a73-4af0-b7c7-5dcdd264f5c3")
@@ -59861,7 +59860,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 26 "Net-(D10-A)")
+			(net 60 "Net-(D44-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "e5b219d9-3012-4e9d-b05b-2d44637f8b69")
@@ -59882,10 +59881,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c713bda2-dcbe-4ac0-baf0-c14997f3b135")
-		(at 143.686 18.28)
+		(at 254.35 183.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D2"
+		(property "Reference" "D15"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "cb99c621-9dfc-4a31-b5c1-12e7d47f9248")
@@ -59896,7 +59895,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "9bfc20b8-85a8-4924-b004-9a5d27cb0122")
@@ -60170,7 +60169,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(D2-A)")
+			(net 31 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "fb67e82a-f4c7-42c3-bde7-2d9c61070d59")
@@ -60191,7 +60190,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "c87cc124-b9f9-4fca-b86d-199bf6245fc2")
-		(at 230.316 62.905)
+		(at 421.8 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D138"
@@ -60481,8 +60480,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "c8d2ef1c-9ed7-4111-9717-f891923e7125")
-		(at 63.626 110.2995)
-		(property "Reference" "SW31"
+		(at 124.5125 108.725)
+		(property "Reference" "SW60"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f1c52c9d-896f-4212-9cc2-eaf7ef107f32")
@@ -60840,7 +60839,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 45 "Net-(D29-A)")
+			(net 76 "Net-(D60-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "853701b3-f725-47f0-9056-f572ec7e598e")
@@ -60861,8 +60860,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "c9098698-2a8a-45da-b8cb-b3ca7c1635e3")
-		(at 29.622 125.213)
-		(property "Reference" "SW10"
+		(at 62.6 51.575)
+		(property "Reference" "SW16"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "42ff6bdc-523e-418b-8728-b0b50af0e257")
@@ -61220,7 +61219,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 24 "Net-(D8-A)")
+			(net 32 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4c8432c3-6a7c-41e2-9f37-b0132f4b115e")
@@ -61241,8 +61240,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "cbb4f21f-73f0-4585-bb8d-ada67b1f0a59")
-		(at 63.626 125.213)
-		(property "Reference" "SW32"
+		(at 217.38125 127.775)
+		(property "Reference" "SW72"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "c713e7f3-d9ea-40af-be47-dbc5624b7b09")
@@ -61600,7 +61599,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 46 "Net-(D30-A)")
+			(net 88 "Net-(D72-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "2b466bbc-47b6-4c8c-ad8d-3365c98fefd2")
@@ -61621,10 +61620,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "cbebe4d4-b8d9-46cd-a199-afacbbb887b1")
-		(at 143.686 55.13)
+		(at 335.17 174.8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D13"
+		(property "Reference" "D3"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "34122795-6dd9-45a6-8c8f-cb8cf5cd8397")
@@ -61635,7 +61634,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "c6d8c2cb-cc00-44bb-be75-ebc03687aee7")
@@ -61909,7 +61908,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(D13-A)")
+			(net 16 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9bf112bf-40f4-4b9a-8543-e8b1c162d27c")
@@ -61930,10 +61929,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "cc8394fc-dc13-40c8-916f-5b9247adc64c")
-		(at 155.276 28.33)
+		(at 346.76 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D31"
+		(property "Reference" "D6"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "0bfcf0d9-4b61-4b89-863c-2e589f1c9870")
@@ -61944,7 +61943,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "583f3948-d25d-4ded-8430-ab690962db2a")
@@ -62218,7 +62217,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 47 "Net-(D31-A)")
+			(net 22 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4969ee9d-fdaf-4710-a245-c2fe3d7f29f6")
@@ -62239,10 +62238,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d0485387-13b4-422b-94a9-c2ca2fbe639a")
-		(at 172.661 14.93)
+		(at 364.145 134.6)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D66"
+		(property "Reference" "D26"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "607de9bf-2991-4b4f-a524-816aab71aa84")
@@ -62253,7 +62252,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "304eb3a4-a6f5-449a-acbc-db9081633154")
@@ -62527,7 +62526,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 82 "Net-(D66-A)")
+			(net 42 "Net-(D26-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "44a4ad52-fcc7-45df-ad71-9821946fa2a5")
@@ -62548,8 +62547,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "d1565780-fe6f-49b0-a086-adc473af94c4")
-		(at 131.634 155.04)
-		(property "Reference" "SW78"
+		(at 31.64375 89.675)
+		(property "Reference" "SW42"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "bfcf4f52-1501-4728-af08-32c5306f3332")
@@ -62907,7 +62906,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 92 "Net-(D76-A)")
+			(net 58 "Net-(D42-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "f9a669c6-5646-4317-b4c2-2be520705489")
@@ -62928,7 +62927,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d1f68e76-739b-407f-945c-2eabd65fcd4f")
-		(at 181.596 56.285)
+		(at 373.08 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D83"
@@ -63218,7 +63217,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d25cd5f5-ef5e-48b9-b222-5f670182e151")
-		(at 183.001 96.8)
+		(at 374.485 216.47)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -63417,7 +63416,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d274fc67-e41e-40a7-aae7-0d76fc95e338")
-		(at 214.076 43.045)
+		(at 405.56 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D117"
@@ -63707,7 +63706,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d549684d-62d2-4f15-a085-c7e8bf54d372")
-		(at 189.716 16.565)
+		(at 381.2 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D86"
@@ -63997,8 +63996,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "d5e118ac-446e-497e-972a-351868a96d1d")
-		(at 80.628 125.213)
-		(property "Reference" "SW43"
+		(at 162.6125 108.725)
+		(property "Reference" "SW62"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "85c3d7ad-685c-4bdb-a46a-70df2e8d7b34")
@@ -64356,7 +64355,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 57 "Net-(D41-A)")
+			(net 78 "Net-(D62-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "69bee155-73b2-479e-accc-284644f3e765")
@@ -64377,8 +64376,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "d77b6f28-d2c4-479a-a796-37e2ed0729ae")
-		(at 63.626 169.9535)
-		(property "Reference" "SW35"
+		(at 148.325 70.625)
+		(property "Reference" "SW34"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "195b07cf-aa62-4f13-be42-3fdd2765e17b")
@@ -64736,7 +64735,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 49 "Net-(D33-A)")
+			(net 50 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "fbbd85cb-6d1b-4bbd-8bcb-03c3f114e613")
@@ -64757,10 +64756,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d7aab9e8-cf30-444e-a469-5c33cbf06f89")
-		(at 155.276 35.03)
+		(at 346.76 154.7)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ae164ba0-789b-4691-9e90-fd1a4f05d035")
@@ -64771,7 +64770,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "68dc04e0-68b8-43fd-a09c-29524186132d")
@@ -65045,7 +65044,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 49 "Net-(D33-A)")
+			(net 50 "Net-(D34-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "68134e30-5deb-4ff5-a999-b49bc8f05852")
@@ -65063,390 +65062,10 @@
 			)
 		)
 	)
-	(footprint "JonasLib-Git:MX100H"
-		(layer "F.Cu")
-		(uuid "d7ae94c8-ea77-4941-a443-a257b954d0db")
-		(at 97.63 155.04)
-		(property "Reference" "SW56"
-			(at 9 7 0)
-			(layer "Dwgs.User")
-			(uuid "0887f40c-f7cf-4538-96f1-5e8034aa2184")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 9 8.5 0)
-			(layer "Dwgs.User")
-			(uuid "eeeb91b4-38f9-4431-b7fc-b930de123f25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-				)
-				(justify right)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da27c134-9e1d-44fa-bf10-93c4c91808d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4e09429-3777-4c29-a594-19b52b0df86a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/ad0845d9-be65-44ec-942e-df8f751baf56/e464eec4-cb53-4212-bdb7-d6c25f1c98ae")
-		(sheetname "/Main/")
-		(sheetfile "main.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -9.525 -9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a6f61b24-c1f1-4e4d-87d8-e3efb422727c")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "07b585c6-6bc0-4b4b-a6b6-bb8964576923")
-		)
-		(fp_line
-			(start -0.5 5.08)
-			(end 0.5 5.08)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "d395dbed-2abe-4490-bb3c-3937e392d925")
-		)
-		(fp_line
-			(start 0 4.58)
-			(end 0 5.58)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "1f50ebb0-5225-496b-8a59-08e5ccb3e631")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "597ce49d-b5cf-4a82-8651-aaacd61a8e4d")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "32ae447e-8058-40d1-84cd-8fac10a3b4f6")
-		)
-		(fp_line
-			(start -7 -6.5)
-			(end -7 6.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "e6c9fb4f-0a0b-4ee1-959c-a93d7cb487a5")
-		)
-		(fp_line
-			(start -6.5 7)
-			(end 6.5 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "60b54ca1-36dc-40d7-8176-84c2507a810c")
-		)
-		(fp_line
-			(start 6.5 -7)
-			(end -6.5 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "1947e379-9f5b-4249-bd65-751c1e82a209")
-		)
-		(fp_line
-			(start 7 6.5)
-			(end 7 -6.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8488246a-018a-46de-87f6-a08030bcd8a6")
-		)
-		(fp_arc
-			(start -7 -6.5)
-			(mid -6.853553 -6.853553)
-			(end -6.5 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "80162130-59bc-4b34-a68d-5b2574e3e0fd")
-		)
-		(fp_arc
-			(start -6.5 7)
-			(mid -6.853553 6.853553)
-			(end -7 6.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "351fca31-3fec-443f-b052-fb5d735a020a")
-		)
-		(fp_arc
-			(start 6.5 -7)
-			(mid 6.853553 -6.853553)
-			(end 7 -6.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f5d9e6a0-959d-4bfb-8871-8581ff2da7ef")
-		)
-		(fp_arc
-			(start 7 6.5)
-			(mid 6.853553 6.853553)
-			(end 6.5 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "debffb95-7aa5-4a63-af2b-8e6c4862a30e")
-		)
-		(fp_line
-			(start -6.8 -6.8)
-			(end -6.8 6.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "9fc42ba4-80ab-4b77-81f9-8945aea05ce2")
-		)
-		(fp_line
-			(start -6.8 -6.8)
-			(end 6.8 -6.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d68b4df7-4e18-4e9c-a5f4-b892dc4258b9")
-		)
-		(fp_line
-			(start -6.8 6.8)
-			(end 6.8 6.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "3663177c-db90-4063-8423-b57e26b9cfe2")
-		)
-		(fp_line
-			(start 6.8 -6.8)
-			(end 6.8 6.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b75b1401-8f4d-4a70-bd20-a4eba3bae3c1")
-		)
-		(fp_line
-			(start -5.3 -7)
-			(end -5.3 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ad1e775e-b096-4e7f-b6ec-387f5495a60f")
-		)
-		(fp_line
-			(start -5.3 -7)
-			(end 4 -7)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "df4edf91-7d8f-4703-9691-bf50f20ac8c6")
-		)
-		(fp_line
-			(start 0.4 -2.6)
-			(end -5.3 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "89f6b809-6f75-41f1-b89d-5edf6dd750a6")
-		)
-		(fp_line
-			(start 6.5 -4.5)
-			(end 6.5 -0.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6b84360c-08d9-48a8-8ce4-3fe45d5b1b24")
-		)
-		(fp_line
-			(start 6.5 -0.6)
-			(end 2.4 -0.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "807b04a4-6ddf-43e1-812b-ca5725a4f1a3")
-		)
-		(fp_arc
-			(start 0.4 -2.6)
-			(mid 1.814214 -2.014214)
-			(end 2.4 -0.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "050de1fa-a86f-42ce-a0ae-9e7545df631c")
-		)
-		(fp_arc
-			(start 4 -7)
-			(mid 5.767767 -6.267767)
-			(end 6.5 -4.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d9438c66-6b16-4192-96e0-b0d1f7fffa91")
-		)
-		(pad "" np_thru_hole circle
-			(at -5.08 0)
-			(size 1.7018 1.7018)
-			(drill 1.7018)
-			(layers "*.Cu" "*.Mask")
-			(uuid "dc4d83f2-9874-4cdd-8a1a-bbf5e40edb79")
-		)
-		(pad "" np_thru_hole circle
-			(at -2.54 -5.08)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f70830a7-9c9c-4e6a-82d3-367558509dfc")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6deedaeb-85a3-4ad8-b401-b8cc68e124b2")
-		)
-		(pad "" np_thru_hole circle
-			(at 3.81 -2.54 90)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "31fe0c0b-ea82-478b-93f8-0c1df7504439")
-		)
-		(pad "" np_thru_hole circle
-			(at 5.08 0)
-			(size 1.7018 1.7018)
-			(drill 1.7018)
-			(layers "*.Cu" "*.Mask")
-			(uuid "96f282f8-18fa-47cc-86a1-2703a5bad568")
-		)
-		(pad "1" smd roundrect
-			(at -6.096 -5.08)
-			(size 2.54 2.54)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.1)
-			(net 172 "COL8")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8924a584-693c-45ef-8508-9c6f7d0c0807")
-		)
-		(pad "2" smd roundrect
-			(at 7.366 -2.54)
-			(size 2.54 2.54)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.1)
-			(net 70 "Net-(D54-A)")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "702932e6-3802-43a1-9abf-36c9829bdc5b")
-		)
-		(embedded_fonts no)
-		(model "${ACHERON_3D}/kailh_socket_mx.stp"
-			(offset
-				(xyz 0.6 3.8 1.8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 0 0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d7c1f245-9a5d-4c69-bc61-7a93aaee89e5")
-		(at 222.196 16.565)
+		(at 413.68 136.235)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D122"
@@ -65736,10 +65355,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d81b4c34-5dc4-4085-bc93-8dd0600e985a")
-		(at 172.661 45.08)
+		(at 364.145 164.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D75"
+		(property "Reference" "D28"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "771989e1-24b8-4e31-8497-d3e62c894220")
@@ -65750,7 +65369,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "7585bfc1-a97d-40d7-be3d-3b07215ef787")
@@ -66024,7 +65643,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 91 "Net-(D75-A)")
+			(net 44 "Net-(D28-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ec7623df-0a79-44f6-939a-20a4d039bf3e")
@@ -66045,7 +65664,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "d91e2f2e-a482-4b27-b746-eb70644cbc10")
-		(at 197.836 29.805)
+		(at 389.32 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D97"
@@ -66335,10 +65954,10 @@
 	(footprint "JonasLib-Git:smd_switch_sunrom4388"
 		(layer "F.Cu")
 		(uuid "d955d091-4afb-45ac-bc34-85086b3a9286")
-		(at 187.461 77.5)
+		(at 391.5 233)
 		(descr "SMD push button switch")
 		(tags "smd button switch push")
-		(property "Reference" "SW2"
+		(property "Reference" "SW78"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
 			(uuid "9103a3f3-9049-4ba7-9c26-4fc41d16d1c6")
@@ -66683,7 +66302,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "dd0d64c0-c90d-4139-b714-7cd60ed42513")
-		(at 181.596 43.045)
+		(at 373.08 162.715)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D81"
@@ -66973,10 +66592,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e27c1012-c35d-4377-9dff-0cc75cd8c10f")
-		(at 161.071 21.63)
+		(at 352.555 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D42"
+		(property "Reference" "D74"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "86d39809-da75-4601-9f55-164b445811f4")
@@ -66987,7 +66606,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "42101772-89a6-40b0-8740-2dde5dd8ee11")
@@ -67261,7 +66880,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 58 "Net-(D42-A)")
+			(net 90 "Net-(D74-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0f63bc2a-857d-4110-9311-28b1cb6cd58d")
@@ -67282,7 +66901,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "e2c33297-9d92-4ab0-9bcc-4899970d3471")
-		(at 197.836 62.905)
+		(at 389.32 182.575)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D102"
@@ -67572,10 +67191,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e327c97e-36ad-4331-bccb-a583993ff65e")
-		(at 161.071 18.28)
+		(at 352.555 137.95)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D41"
+		(property "Reference" "D62"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "43b5f408-7082-44be-84fb-c23f1fc8caa8")
@@ -67586,7 +67205,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "c8ad8fde-a832-424c-9284-bd1ac767b647")
@@ -67860,7 +67479,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 57 "Net-(D41-A)")
+			(net 78 "Net-(D62-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ce4ab442-2787-4b67-bbe8-216769f843f3")
@@ -67881,10 +67500,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e45c5838-1792-4498-beea-2fff884f5ecd")
-		(at 155.276 24.98)
+		(at 346.76 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D30"
+		(property "Reference" "D72"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "e62b7274-08df-43e3-ba96-85c51b571596")
@@ -67895,7 +67514,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "08afea52-bd42-420a-a12b-59967c7cef81")
@@ -68169,7 +67788,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 46 "Net-(D30-A)")
+			(net 88 "Net-(D72-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "cd2f86c9-7bb8-482b-b1c0-5d8b1c892a05")
@@ -68190,10 +67809,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e4a5300b-9c62-43c5-8d97-233d909db3ac")
-		(at 149.481 14.93)
+		(at 340.965 134.6)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D14"
+		(property "Reference" "D17"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "3d2ee199-48df-49e8-82f9-fafebb46a63c")
@@ -68204,7 +67823,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "45ca8cd7-c4b7-4b19-ab2d-b4d22d92f9b9")
@@ -68478,7 +68097,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(D14-A)")
+			(net 33 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ed9467ba-6385-47a4-b22e-d74e40b5748c")
@@ -68499,10 +68118,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e4f6e2a1-17b6-42b6-9b9d-9de05561192c")
-		(at 166.866 48.43)
+		(at 358.35 168.1)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D63"
+		(property "Reference" "D53"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "07348e4f-a54f-4689-a868-926e86a8373d")
@@ -68513,7 +68132,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e16429d1-c599-4e63-93ea-829811fda455")
@@ -68787,7 +68406,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 79 "Net-(D63-A)")
+			(net 69 "Net-(D53-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b613eeff-f125-48f1-b334-3db793ca2270")
@@ -68808,7 +68427,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e509cbf1-6e5c-4b6e-a6f6-6301e0b70117")
-		(at 179.541 81.11)
+		(at 371.025 200.78)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -69007,8 +68626,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "e597daf5-e340-4332-8015-eaa2214fd0f9")
-		(at 114.632 95.386)
-		(property "Reference" "SW63"
+		(at 234.05 51.575)
+		(property "Reference" "SW25"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "1e4bb01d-8cfd-4ef0-92ed-7e11a658c959")
@@ -69366,7 +68985,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 77 "Net-(D61-A)")
+			(net 41 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "62a39a7e-4a90-4d4a-92c4-fa94b330dcd0")
@@ -69387,8 +69006,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "e73d6f31-ce46-4fca-8080-af283defd385")
-		(at 80.628 95.386)
-		(property "Reference" "SW41"
+		(at 167.375 70.625)
+		(property "Reference" "SW35"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "506c6576-deea-46d7-bbd2-04b94c1d92fa")
@@ -69746,7 +69365,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 55 "Net-(D39-A)")
+			(net 51 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7a8b2988-0cc6-4605-b8d9-9a97aef0f3a1")
@@ -69767,10 +69386,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e8d93722-4f93-4a96-be4e-25e0e6fe3e0e")
-		(at 149.481 24.98)
+		(at 340.965 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D17"
+		(property "Reference" "D58"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "293d9190-5b31-41f2-8f50-98237d1692b0")
@@ -69781,7 +69400,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "87456327-3795-436e-8f46-869e65aeb4a3")
@@ -70055,7 +69674,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(D17-A)")
+			(net 74 "Net-(D58-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8a7bc691-b476-4213-b564-b0478195a31b")
@@ -70076,10 +69695,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e9341d14-f326-431d-9059-699bbcc371e3")
-		(at 155.276 21.63)
+		(at 346.76 141.3)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D29"
+		(property "Reference" "D60"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "dc6f34da-dc5d-4437-8544-3878b5bdb3d8")
@@ -70090,7 +69709,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "57103b09-ac10-4b63-bfa6-626bd526d790")
@@ -70364,7 +69983,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 45 "Net-(D29-A)")
+			(net 76 "Net-(D60-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c0249a31-d0a5-4b06-b4f2-c57b7e9bc56f")
@@ -70385,8 +70004,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "e99c1683-de89-42ca-9724-bc49be70b139")
-		(at 114.632 110.2995)
-		(property "Reference" "SW64"
+		(at 243.575 70.625)
+		(property "Reference" "SW39"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "fcc4262c-a012-411a-ab0a-e7c081ed028b")
@@ -70744,7 +70363,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 78 "Net-(D62-A)")
+			(net 55 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "afffe36a-1994-408f-8a62-f8dde56eca03")
@@ -70765,8 +70384,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "eb1bc57b-eb00-4ba0-9e27-44f7940a24d1")
-		(at 29.622 65.559)
-		(property "Reference" "SW6"
+		(at 57.8375 89.675)
+		(property "Reference" "SW43"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "f90e8cdd-c067-4fed-acce-17ddc27b25db")
@@ -71124,7 +70743,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 18 "Net-(D4-A)")
+			(net 59 "Net-(D43-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "aa8b4a04-8c58-466e-b137-256cb26d4995")
@@ -71145,10 +70764,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "eb5df61f-9702-4995-b410-929859588717")
-		(at 166.866 24.98)
+		(at 358.35 144.65)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D56"
+		(property "Reference" "D24"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "4ac40443-c957-49c0-b336-6e255fee6fa3")
@@ -71159,7 +70778,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "46e89f61-c842-4d2d-ae59-1a4aa7266552")
@@ -71433,7 +71052,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 72 "Net-(D56-A)")
+			(net 40 "Net-(D24-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b7ec30c7-1264-4359-8862-6103fd0e1d72")
@@ -71454,8 +71073,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "ebf5b3f1-2ca0-4d7e-b5a2-36d4a6a8fb9e")
-		(at 131.634 65.559)
-		(property "Reference" "SW72"
+		(at 291.2 23)
+		(property "Reference" "SW13"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "b8add141-c9d3-45ba-9018-ebcf58577877")
@@ -71813,7 +71432,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 86 "Net-(D70-A)")
+			(net 29 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "bc0a1f5d-eeeb-4b56-8ad3-4d099efbe896")
@@ -71834,8 +71453,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "ec37e920-c04b-4a34-bfa3-b4bae3843dd9")
-		(at 97.63 65.559)
-		(property "Reference" "SW50"
+		(at 288.81875 127.775)
+		(property "Reference" "SW75"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "d05b2b72-7f87-4cff-894c-b7eb5689ce98")
@@ -72193,7 +71812,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 64 "Net-(D48-A)")
+			(net 91 "Net-(D75-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "e61b80e2-3ad3-4324-b2e1-6160d0c0d2ea")
@@ -72214,8 +71833,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "ec39693b-8a0e-437b-9707-378b86be6e0a")
-		(at 46.624 95.386)
-		(property "Reference" "SW19"
+		(at 86.4125 108.725)
+		(property "Reference" "SW58"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "31804f31-a295-4f27-be93-9237e720bfbd")
@@ -72573,7 +72192,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 33 "Net-(D17-A)")
+			(net 74 "Net-(D58-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "cd5505a9-9e1a-49ae-9c1c-d22c1f8c3690")
@@ -72594,7 +72213,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ecf61e7b-7d84-4367-b29d-fbbdaab34050")
-		(at 202.931 87)
+		(at 394.415 206.67)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -72793,7 +72412,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "ed4b4880-1998-4cc9-8b56-6a8ccc9bd907")
-		(at 189.716 56.285)
+		(at 381.2 175.955)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D92"
@@ -73083,8 +72702,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "ef56d221-487c-4526-8092-cb3e1cab2d2a")
-		(at 63.626 35.732)
-		(property "Reference" "SW26"
+		(at 145.94375 127.775)
+		(property "Reference" "SW71"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "3800ad33-8c21-43fc-a4a8-d49ffe085334")
@@ -73442,7 +73061,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 40 "Net-(D24-A)")
+			(net 87 "Net-(D71-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "e2047244-fe73-4364-b651-1bf6691d5a9e")
@@ -73463,8 +73082,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "f1fd2a99-1aca-44e7-a432-50fe23095f8f")
-		(at 114.632 65.559)
-		(property "Reference" "SW61"
+		(at 219.7625 108.725)
+		(property "Reference" "SW65"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "479c92c6-0d50-40a2-b339-607b1696a46a")
@@ -73822,7 +73441,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 75 "Net-(D59-A)")
+			(net 81 "Net-(D65-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "9631aa96-3154-4f9d-84c1-2bb64932612c")
@@ -73843,7 +73462,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f54c6ff5-55af-488d-abfa-d92495eb4c72")
-		(at 202.931 90.01)
+		(at 394.415 209.68)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -74042,7 +73661,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "f5854172-7fe1-4b8f-801c-0ba97fc91ea8")
-		(at 230.316 36.425)
+		(at 421.8 156.095)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D134"
@@ -74332,7 +73951,7 @@
 	(footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "f695b347-8804-4489-bc11-ca2b6a271bbc")
-		(at 222.196 29.805)
+		(at 413.68 149.475)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D124"
@@ -74622,8 +74241,8 @@
 	(footprint "JonasLib-Git:MX100H"
 		(layer "F.Cu")
 		(uuid "fa328131-8556-438d-aa8c-bba605e94867")
-		(at 63.626 155.04)
-		(property "Reference" "SW34"
+		(at 138.8 51.575)
+		(property "Reference" "SW20"
 			(at 9 7 0)
 			(layer "Dwgs.User")
 			(uuid "87d2df19-8f51-4ace-af87-36aee509b2f1")
@@ -74981,7 +74600,7 @@
 			(size 2.54 2.54)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.1)
-			(net 48 "Net-(D32-A)")
+			(net 36 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "3356408d-e2aa-463e-b99c-0b10e9908bc9")
@@ -75002,10 +74621,10 @@
 	(footprint "JonasLib-Git:smd_switch_sunrom4388"
 		(layer "F.Cu")
 		(uuid "fbf2e776-3edc-445d-9bee-52ca200d86aa")
-		(at 187.461 82.83)
+		(at 409.5 234.5)
 		(descr "SMD push button switch")
 		(tags "smd button switch push")
-		(property "Reference" "SW3"
+		(property "Reference" "SW79"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
 			(uuid "99794d70-5fac-4d67-bfa3-19847fafb293")
@@ -75350,11 +74969,11 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "fc634514-a441-4d2b-99b0-3fedb550a3a4")
-		(at 143.686 14.93)
+		(at 33 25 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(layer "F.SilkS")
 			(uuid "5de94e0c-882c-4d8e-87fe-a0393229bf77")
 			(effects
@@ -75364,8 +74983,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 0 2.1 0)
+		(property "Value" "1N4148"
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "bb06798e-bcca-4dfe-ab71-8f697c57444f")
 			(effects
@@ -75376,7 +74995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -75389,7 +75008,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -75402,7 +75021,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -75415,7 +75034,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -75434,16 +75053,6 @@
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
-			(end -2.36 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2997df21-0575-4673-b3ca-e71eab91136c")
-		)
-		(fp_line
-			(start -2.36 -1)
 			(end 1.65 -1)
 			(stroke
 				(width 0.12)
@@ -75451,6 +75060,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "903d33b0-bf81-4960-b133-f7aab2586fee")
+		)
+		(fp_line
+			(start -2.36 -1)
+			(end -2.36 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2997df21-0575-4673-b3ca-e71eab91136c")
 		)
 		(fp_line
 			(start -2.36 1)
@@ -75463,14 +75082,14 @@
 			(uuid "ed1a5075-ed70-4298-8c6b-b126c2556b85")
 		)
 		(fp_line
-			(start -2.35 -1.15)
-			(end -2.35 1.15)
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3043029a-2e7c-48d2-84be-b9078d04bb46")
+			(uuid "93d5d35e-9ff2-46bc-b944-86412de70fe1")
 		)
 		(fp_line
 			(start -2.35 -1.15)
@@ -75483,14 +75102,14 @@
 			(uuid "b1dd95f7-f091-4192-98c2-e96031a348ae")
 		)
 		(fp_line
-			(start 2.35 -1.15)
-			(end 2.35 1.15)
+			(start -2.35 -1.15)
+			(end -2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "93d5d35e-9ff2-46bc-b944-86412de70fe1")
+			(uuid "3043029a-2e7c-48d2-84be-b9078d04bb46")
 		)
 		(fp_line
 			(start 2.35 1.15)
@@ -75503,6 +75122,16 @@
 			(uuid "5a3d24e2-430f-4cc8-83b4-0a8a43b4b6fe")
 		)
 		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc80ed3f-c4a1-4381-9694-1a13fc38c37f")
+		)
+		(fp_line
 			(start -1.4 -0.9)
 			(end 1.4 -0.9)
 			(stroke
@@ -75511,56 +75140,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "a4650601-9707-4469-8bf5-c1c61c085117")
-		)
-		(fp_line
-			(start -1.4 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9359e8e9-784e-4961-be43-e4bb53b65dd0")
-		)
-		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ebd1da62-ea1d-4126-9018-78e4e17ead92")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1cdf7c29-b78c-47e1-8087-2d79d7657c4b")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7104b0e1-f000-4c56-b135-783a9bc40e0a")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f6050e16-627b-4913-b4a1-b1efc616a223")
 		)
 		(fp_line
 			(start 0.25 -0.4)
@@ -75583,6 +75162,46 @@
 			(uuid "443e4adb-16df-452b-ae21-64da3446fb53")
 		)
 		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1cdf7c29-b78c-47e1-8087-2d79d7657c4b")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f6050e16-627b-4913-b4a1-b1efc616a223")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7104b0e1-f000-4c56-b135-783a9bc40e0a")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ebd1da62-ea1d-4126-9018-78e4e17ead92")
+		)
+		(fp_line
 			(start 0.25 0.4)
 			(end -0.35 0)
 			(stroke
@@ -75591,16 +75210,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "db7b0832-5c68-4cb9-b5a0-8d1510b4d42f")
-		)
-		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fc80ed3f-c4a1-4381-9694-1a13fc38c37f")
 		)
 		(fp_line
 			(start 1.4 0.9)
@@ -75612,8 +75221,18 @@
 			(layer "F.Fab")
 			(uuid "72658bed-e26b-4903-be9c-1f235f185efa")
 		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9359e8e9-784e-4961-be43-e4bb53b65dd0")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(layer "F.Fab")
 			(uuid "cc89dd51-d34c-4433-ae23-3ec5a7ddd4b1")
 			(effects
@@ -75624,7 +75243,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0)
+			(at -1.65 0 90)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -75634,7 +75253,7 @@
 			(uuid "b8562901-569d-4c01-af9a-633d320cc5e5")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0)
+			(at 1.65 0 90)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -75659,7 +75278,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fdc61682-cc32-44a4-a437-e1df922ea143")
-		(at 202.931 93.02)
+		(at 394.415 212.69)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -75858,10 +75477,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "fe93006c-e0ec-4bc7-b533-2521d4311038")
-		(at 166.866 31.68)
+		(at 358.35 151.35)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D58"
+		(property "Reference" "D52"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "8a0933e6-b92e-45b3-a92f-ee36af5b213d")
@@ -75872,7 +75491,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "e0818506-6044-4626-9395-fadcc1eedf76")
@@ -76146,7 +75765,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 74 "Net-(D58-A)")
+			(net 68 "Net-(D52-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d686c530-2a1e-4280-842a-7af81c2e101b")
@@ -76167,10 +75786,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "fed3947d-4120-4c46-96f4-1192ae69d5a6")
-		(at 166.866 28.33)
+		(at 358.35 148)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D57"
+		(property "Reference" "D38"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "9f150ace-65f8-46dc-9633-3efcd548d4db")
@@ -76181,7 +75800,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "86564a76-8552-4d8b-9c25-64a04b9f5086")
@@ -76455,7 +76074,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 73 "Net-(D57-A)")
+			(net 54 "Net-(D38-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "639592bc-8542-40c3-bb23-d27471d60cfd")
