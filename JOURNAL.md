@@ -45,11 +45,26 @@ Add a row to the Matrix for the ESC and F's
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTc5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e7313b9fe36334ab39feb832d6620eea345ce6c/image.png)
   
 
-## 10/27/2025 - Fix Shematic  
+## 10/27/2025 8 PM - Fix Shematic  
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjA0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d5b10858e30f07e7a44f22cf5332d255c61c177d/image.png)
 
 I fix ERC in ending wires, replace pins and add some Cap's for energy balance for the STM32
 
 Add to all Components footprints and Start to place on the pcb.  
+
+## 10/27/2025 10 PM - Switch Layout PCB  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjA2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--8bc98a6f967f5aca1cc01274ac94a7c151f1d2de/image.png)
+I place the switches in a layout. I orientate at the default sizes in (1U = 19.05mm)
+Normal 1U
+Caps/Tab 1.5U
+Left Shift 1.25U
+Right Shift 2.75U
+Enter 1.25U ISO Version
+Backspace 2U
+Space 6.25U
+Strg 1.25U
+
+I start to place the diots nearby the switches.  
 
