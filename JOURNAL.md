@@ -45,3 +45,11 @@ Add a row to the Matrix for the ESC and F's
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTc5NiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e7313b9fe36334ab39feb832d6620eea345ce6c/image.png)
   
 
+## 10/27/2025 - Fix Shematic  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjA0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d5b10858e30f07e7a44f22cf5332d255c61c177d/image.png)
+
+I fix ERC in ending wires, replace pins and add some Cap's for energy balance for the STM32
+
+Add to all Components footprints and Start to place on the pcb.  
+
