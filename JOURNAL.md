@@ -68,3 +68,9 @@ Strg 1.25U
 
 I start to place the diots nearby the switches.  
 
+## 10/29/2025 - Diodes and Switch routing  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjM3OCwicHVyIjoiYmxvYl9pZCJ9fQ==--b59713f39af1da8de257a241c42795bea3f1c133/image.png)
+I start to place the Diods under the switches. After I connect the Diods with the Switches I Start the Row routing of the switches. It was difficult to find a perfect routing because some the ROW 13 Switches are one the left side were normality is the first Row. That it is easier I change the Shematic.
+I am finish with the row routing  
+
